@@ -550,3 +550,42 @@ body{
   from {opacity:0;}
   to {opacity: 0.9;}
 }
+
+.formobile {
+  display: none;
+  font-family: "SpoqaHanSansNeo-Regular", "Quicksand", sans-serif;
+}
+@media screen and (max-width: 950px) {
+  .formobile {
+    display: block;
+    z-index: 10000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  .formobile-p {
+    display: block;
+    z-index: 10001;
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    line-height: 1.75;
+    color: #000;
+    background-color: whitesmoke;
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+    text-decoration: none;
+    overflow: hidden;
+  }
+}
