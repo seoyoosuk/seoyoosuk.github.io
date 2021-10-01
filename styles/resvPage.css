@@ -165,7 +165,7 @@ body {
 }
 
 .header {
-  font-family: 'Georgia', "BareunBatangOTFB-subset", serif;
+  font-family: "Georgia", "BareunBatangOTFB-subset", serif;
   position: fixed;
   width: 100%;
 
@@ -200,7 +200,7 @@ a {
 }
 a:hover {
   text-decoration: underline;
-text-underline-position: under;
+  text-underline-position: under;
   cursor: pointer;
 }
 
@@ -293,75 +293,75 @@ text-underline-position: under;
   /* Desktop menu */
 
   .menuWrapper {
-  position: fixed;
-  font-size: 15px;
-  margin-top: 140px;
-  margin-left: -10px;
-  width: 100%;
+    position: fixed;
+    font-size: 15px;
+    margin-top: 140px;
+    margin-left: -10px;
+    width: 100%;
 
-  color: black;
+    color: black;
 
-  display: grid;
-  grid-template-columns: repeat(16, 3fr);
-  grid-auto-columns: minmax(100px, auto);
-  grid-column-gap: 8px;
+    display: grid;
+    grid-template-columns: repeat(16, 3fr);
+    grid-auto-columns: minmax(100px, auto);
+    grid-column-gap: 8px;
 
-  align-items: start;
-  z-index: 55;
-}
+    align-items: start;
+    z-index: 55;
+  }
 
-.menu1 {
-  cursor: pointer;
-  grid-column: 7;
-  text-align: center;
+  .menu1 {
+    cursor: pointer;
+    grid-column: 7;
+    text-align: center;
 
-  justify-items: center;
-  align-content: center;
-  grid-row: 1;
-  z-index: 55;
-}
+    justify-items: center;
+    align-content: center;
+    grid-row: 1;
+    z-index: 55;
+  }
 
-.menu1:hover {
-  text-decoration: underline;
-  text-underline-position: under;
-}
-.menu2 {
-  cursor: pointer;
-  grid-column: 8;
-  text-align: center;
+  .menu1:hover {
+    text-decoration: underline;
+    text-underline-position: under;
+  }
+  .menu2 {
+    cursor: pointer;
+    grid-column: 8;
+    text-align: center;
 
-  grid-row: 1;
-  z-index: 55;
-}
-.menu2:hover {
-  text-decoration: underline;
-  text-underline-position: under;
-}
+    grid-row: 1;
+    z-index: 55;
+  }
+  .menu2:hover {
+    text-decoration: underline;
+    text-underline-position: under;
+  }
 
-.menu3 {
-  cursor: pointer;
-  grid-column: 9;
-  text-align: center;
+  .menu3 {
+    cursor: pointer;
+    grid-column: 9;
+    text-align: center;
 
-  grid-row: 1;
-  z-index: 55;
-}
-.menu3:hover {
-  text-decoration: underline;
-  text-underline-position: under;
-}
-.menu4 {
-  cursor: pointer;
-  grid-column: 10;
-  text-align: center;
+    grid-row: 1;
+    z-index: 55;
+  }
+  .menu3:hover {
+    text-decoration: underline;
+    text-underline-position: under;
+  }
+  .menu4 {
+    cursor: pointer;
+    grid-column: 10;
+    text-align: center;
 
-  grid-row: 1;
-  z-index: 55;
-}
-.menu4:hover {
-  text-decoration: underline;
-  text-underline-position: under;
-}
+    grid-row: 1;
+    z-index: 55;
+  }
+  .menu4:hover {
+    text-decoration: underline;
+    text-underline-position: under;
+  }
 }
 /* ///// setting ///// */
 
@@ -410,8 +410,6 @@ nav div .sticky {
   margin-top: 240px;
   margin-left: 180px;
 }
-
-
 
 h1 {
   display: block;
@@ -471,12 +469,11 @@ table {
   border-collapse: collapse;
 }
 
-th, td {
+th,
+td {
   border: 1px solid #444444;
   padding: 12px 96px 12px 8px;
 }
-
-
 
 li {
   font-family: "BareunBatangOTFB-subset", serif;
@@ -533,7 +530,6 @@ details > summary::-webkit-details-marker {
   font-size: 1.25rem;
   margin-left: 6px;
   margin-bottom: 24px;
-
 }
 
 .modalBody1 {
@@ -613,33 +609,53 @@ details > summary::-webkit-details-marker {
   margin: 32px 0 64px 16px;
   grid-column: 1;
 }
-.fa-instagram{
+.fa-instagram {
   font-size: 16px;
 }
 
-
-body{
+body {
   animation: fadein 1000ms ease-out;
   -moz-animation: fadein 1000ms ease-out; /* Firefox */
   -webkit-animation: fadein 1000ms ease-out; /* Safari and  Chrome */
   -o-animation: fadein 1000ms ease-out; /* Opera */
 }
 @keyframes fadein {
-  from {opacity:0;}
-  to {opacity:0.9;}
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.9;
+  }
 }
-@-moz-keyframes fadein { /* Firefox */
-  from {opacity:0;}
-  to {opacity:0.9;}
+@-moz-keyframes fadein {
+  /* Firefox */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.9;
+  }
 }
-@-webkit-keyframes fadein { /* Safari and Chrome */
-  from {opacity:0;}
-  to {opacity:0.9;}
+@-webkit-keyframes fadein {
+  /* Safari and Chrome */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.9;
+  }
 }
-@-o-keyframes fadein { /* Opera */
-  from {opacity:0;}
-  to {opacity: 0.9;}
+@-o-keyframes fadein {
+  /* Opera */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.9;
+  }
 }
+
+/* formobile */
 
 .formobile {
   display: none;

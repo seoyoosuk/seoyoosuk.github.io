@@ -154,24 +154,23 @@ body {
   background-color: #edebe1;
 }
 
-header{
+header {
   color: white;
-  position:fixed;
+  position: fixed;
 
-
-  -webkit-transition-duration:0.4s;
-  -webkit-transition-timing-function:ease;
-  transition-duration:0.4s;
-  transition-timing-function:ease;
+  -webkit-transition-duration: 0.4s;
+  -webkit-transition-timing-function: ease;
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
 
   z-index: 59;
 }
 
 header:after {
-  display:block;
-  width:100%;
-  border-bottom:1px solid #000;
-  content:"";
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid #000;
+  content: "";
 }
 
 .inner {
@@ -181,15 +180,15 @@ header:after {
 }
 
 .down {
-  background-color:rgba(0,0,0,.8);
-  -webkit-transition-duration:0.4s;
-  -webkit-transition-timing-function:ease;
-  transition-duration:0.4s;
-  transition-timing-function:ease;
+  background-color: rgba(0, 0, 0, 0.8);
+  -webkit-transition-duration: 0.4s;
+  -webkit-transition-timing-function: ease;
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
 }
 
 .header {
-  font-family: 'Georgia', "BareunBatangOTFB-subset", serif;
+  font-family: "Georgia", "BareunBatangOTFB-subset", serif;
   position: fixed;
   width: 100%;
 
@@ -213,8 +212,6 @@ header:after {
   z-index: 55;
 }
 
-
-
 p {
   font-family: "SpoqaHanSansNeo-Regular", "Arial", sans-serif;
   line-height: 1.85;
@@ -228,7 +225,7 @@ a {
 }
 a:hover {
   text-decoration: underline;
-text-underline-position: under;
+  text-underline-position: under;
   cursor: pointer;
 }
 
@@ -272,8 +269,6 @@ nav div .sticky {
   padding: 0 100px;
   justify-content: flex-end;
 }
-
-
 
 .menuWrapper {
   position: fixed;
@@ -410,7 +405,6 @@ details > summary::-webkit-details-marker {
   grid-auto-columns: minmax(50px, auto);
   grid-column-gap: 8px;
 
-  
   align-self: start;
   z-index: 50;
 }
@@ -419,7 +413,7 @@ details > summary::-webkit-details-marker {
   font-family: "SpoqaHanSansNeo-Regular", "Arial", sans-serif;
   font-size: 0.75rem;
   display: inline;
-  
+
   overflow: hidden;
 }
 
@@ -428,8 +422,6 @@ details > summary::-webkit-details-marker {
   justify-items: start;
   justify-content: start;
   text-align: center;
-
-
 }
 .quick_menu2 li:nth-child(2) {
   grid-column: 10;
@@ -762,7 +754,7 @@ details > summary::-webkit-details-marker {
 
   grid-column: 1;
 }
-.fa-instagram{
+.fa-instagram {
   font-size: 16px;
 }
 
@@ -819,6 +811,8 @@ body {
   }
 }
 
+/* formobile */
+
 .formobile {
   display: none;
   font-family: "SpoqaHanSansNeo-Regular", "Quicksand", sans-serif;
@@ -857,4 +851,3 @@ body {
     overflow: hidden;
   }
 }
-
