@@ -186,10 +186,8 @@ p {
   position: fixed;
   width: 100%;
 
-  font-size: 20px;
   text-align: center;
   line-height: 1.6;
-  margin-top: 3rem;
   color: black;
   z-index: 50;
 }
@@ -199,10 +197,8 @@ p {
   position: fixed;
   width: 100%;
 
-  font-size: 0.8125rem;
   text-align: center;
 
-  margin-top: 84px;
   z-index: 50;
 }
 
@@ -227,7 +223,6 @@ p {
 
 nav {
   width: 100%;
-  height: 180px;
   background-color: #edebe1;
   position: sticky;
   top: 0;
@@ -244,8 +239,7 @@ nav div .sticky {
 .menuWrapper {
   position: fixed;
   font-size: 12px;
-  margin-top: 140px;
-  margin-left: -10px;
+
   width: 100%;
 
   display: grid;
@@ -439,7 +433,6 @@ details > summary::-webkit-details-marker {
 
 .ftext1 {
   text-align: left;
-  margin: 0 0 64px 10%;
   padding-bottom: 48px;
   grid-column: 1;
 }
@@ -489,11 +482,26 @@ body {
   }
 }
 
+/* ************************* media Q */
+
 @media all and (min-width: 300px) {
+  .header {
+    font-size: 18px;
+    margin-top: 2rem;
+  }
+
+  .caption {
+    font-size: 0.7rem;
+    margin-top: 60px;
+  }
+
   .menuWrapper {
     font-size: 0.85rem;
     grid-column-gap: 0px;
     grid-template-columns: repeat(4, 3fr);
+    justify-content: space-evenly;
+
+    margin-top: 115px;
   }
 
   .menu1 {
@@ -510,9 +518,48 @@ body {
   }
 
   .about {
-    margin: -8rem 0rem 2rem 10vw;
-    font-size: 1rem;
+    margin: -10rem 0rem 2rem 9vw;
+    font-size: 0.9rem;
     width: 75%;
+  }
+
+  .linefixed {
+    margin-top: 150px;
+  }
+
+  nav {
+    height: 150px;
+  }
+
+  .imgA {
+    display: block;
+    margin: 0 0 20rem 2rem;
+    width: 70%;
+    height: auto;
+
+    backface-visibility: hidden;
+  }
+
+  .titleA {
+    font-family: "BareunBatangOTFM-subset", serif;
+    display: block;
+    margin: 12.25rem 0 0 2.1rem;
+
+    font-size: 0.9rem;
+  }
+  .summaryA {
+    width: 65%;
+    word-break: keep-all;
+    display: block;
+    margin: 15rem 0 0 2.1rem;
+
+    font-size: 0.8rem;
+  }
+
+  .ftext1 {
+    margin: 0 0 48px 0;
+    width: 100%;
+    font-size: 0.8rem;
   }
 }
 
@@ -520,10 +567,22 @@ body {
 }
 
 @media all and (min-width: 1004px) {
+  .header {
+    font-size: 20px;
+    margin-top: 3rem;
+  }
+
+  .caption {
+    font-size: 0.8125rem;
+    margin-top: 84px;
+  }
+
   .menuWrapper {
     font-size: 15px;
     grid-column-gap: 8px;
     grid-template-columns: repeat(16, 3fr);
+
+    margin-top: 140px;
   }
 
   .menu1 {
@@ -545,6 +604,47 @@ body {
     width: 33%;
   }
 
+  .linefixed {
+    margin-top: 180px;
+  }
+
+  nav {
+    height: 180px;
+  }
+
+  .imgA {
+    display: block;
+    margin: 0rem 0 22.5rem 7.5rem;
+    width: 55%;
+    height: auto;
+
+    backface-visibility: hidden;
+  }
+  .imgA:last-child {
+    margin-bottom: 1rem;
+  }
+
+  .titleA {
+    font-family: "BareunBatangOTFM-subset", serif;
+    display: block;
+    margin: -0.5rem 0 30rem 67.5%;
+
+    font-size: 1.1rem;
+  }
+  .summaryA {
+    width: 25%;
+    word-break: keep-all;
+    display: block;
+    margin: 3rem 0 25rem 67.5%;
+  
+    font-size: 0.85rem;
+  }
+
+  .ftext1 {
+    margin: 0 0 64px 10%;
+    width: 55%;
+    font-size: 1rem;
+  }
 }
 @media all and (min-width: 1300px) {
   .about {
