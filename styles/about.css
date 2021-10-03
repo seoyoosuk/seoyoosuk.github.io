@@ -533,8 +533,8 @@ body {
 
   .imgA {
     display: block;
-    margin: 0 0 20rem 2rem;
-    width: 70%;
+    margin: -2rem 0 20rem 2rem;
+    width: 80%;
     height: auto;
 
     backface-visibility: hidden;
