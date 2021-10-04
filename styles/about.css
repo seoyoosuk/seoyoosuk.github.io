@@ -181,14 +181,49 @@ p {
   text-align: left;
 }
 
+header {
+  color: white;
+  position: fixed;
+
+  -webkit-transition-duration: 0.4s;
+  -webkit-transition-timing-function: ease;
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
+
+  z-index: 59;
+}
+
+header:after {
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid #000;
+  content: "";
+}
+
+.inner {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.down {
+  background-color: rgba(0, 0, 0, 0.8);
+  -webkit-transition-duration: 0.4s;
+  -webkit-transition-timing-function: ease;
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
+}
+
 .header {
-  font-family: "Georgia", "BareunBatangOTFB-subset", serif;
+  font-family: "Spectral", "BareunBatangOTFB-subset", serif;
   position: fixed;
   width: 100%;
 
+  font-size: 20px;
   text-align: center;
   line-height: 1.6;
-  color: black;
+  margin-top: 3rem;
+
   z-index: 50;
 }
 
@@ -224,10 +259,14 @@ p {
 nav {
   width: 100%;
   background-color: #edebe1;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   position: sticky;
   top: 0;
   z-index: 49;
 }
+
+
 
 nav div .sticky {
   display: flex;
@@ -363,6 +402,7 @@ nav div .sticky {
   backface-visibility: hidden;
 
   margin-bottom: 12rem;
+  z-index: -1;
 }
 
 .imgA {
@@ -370,8 +410,11 @@ nav div .sticky {
   margin: 0rem 0 22.5rem 7.5rem;
   width: 55%;
   height: auto;
+  /* background-color: rgba(50, 50, 50, 0.8); */
+  opacity: 0.8;
 
   backface-visibility: hidden;
+  z-index: -1;
 }
 .imgA:last-child {
   margin-bottom: 1rem;
@@ -487,12 +530,12 @@ body {
 @media all and (min-width: 300px) {
   .header {
     font-size: 18px;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
   }
 
   .caption {
     font-size: 0.7rem;
-    margin-top: 60px;
+    margin-top: 52.5px;
   }
 
   .menuWrapper {
@@ -533,10 +576,12 @@ body {
 
   .imgA {
     display: block;
-    margin: -2rem 0 20rem 2rem;
-    width: 80%;
-    height: auto;
+    margin: -5rem 0 10rem 0rem;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
 
+  opacity: 0.3;
     backface-visibility: hidden;
   }
 
