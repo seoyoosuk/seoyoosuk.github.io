@@ -663,6 +663,7 @@ body {
     width: 55%;
     height: auto;
 
+    opacity: 1;
     backface-visibility: hidden;
   }
   .imgA:last-child {
@@ -682,7 +683,7 @@ body {
     display: block;
     margin: 3rem 0 25rem 67.5%;
   
-    font-size: 0.85rem;
+    font-size: 1rem;
   }
 
   .ftext1 {
