@@ -599,21 +599,19 @@ details > summary::-webkit-details-marker {
 
 .footer {
   margin: 0 auto;
-  width: 100%;
+  width: 90%;
   display: grid;
   grid-template-columns: repeat(2, 3fr);
   grid-auto-columns: minmax(100px, auto);
   grid-column-gap: 8px;
 
   align-items: start;
-
   text-align: center;
 }
 
 .ftext1 {
   text-align: left;
   margin: 0 0 64px 350px;
-
   grid-column: 1;
 }
 .fa-instagram {
@@ -709,6 +707,12 @@ body {
     height: 150px;
   }
 
+  .nav2 {
+    width: 100%;
+    height: 150px;
+    z-index: 48;
+  }
+
   .linkText {
     position: absolute;
     display: block;
@@ -759,18 +763,18 @@ body {
     background-color: #acc476;
     margin: 0 auto;
     padding: 16px 24px 12px 24px;
-    width: 60%;
+    width: 82%;
   }
 
   .modalHeader1 {
     font-family: "BareunBatangOTFM-subset", serif;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     margin-bottom: 4px;
   }
 
   .modalHeader2 {
     font-family: "BareunBatangOTFM-subset", serif;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
 
   .modalBody1 {
@@ -815,7 +819,7 @@ body {
     word-break: keep-all;
     font-size: 0.9rem;
 
-    margin: 3rem 16px 0 32px;
+    margin: 3rem 16px 32px 32px;
   }
 
   .containerA {
@@ -872,6 +876,14 @@ body {
     display: none;
   }
 
+  .item9 {
+    width: 100%;
+  }
+
+  .item10 {
+    width: 100%;
+  }
+
   .containerC {
     left: 0;
     margin-top: 0px;
@@ -888,6 +900,30 @@ body {
 
     column-gap: 12px;
     row-gap: 12px;
+  }
+
+  .footer {
+    width: 75%;
+    line-height: 1.85;
+  
+    display: grid;
+    grid-template-columns: repeat(1, 3fr);
+    grid-auto-columns: minmax(100px, auto);
+    grid-column-gap: 8px;
+  
+    align-items: start;
+    text-align: left;
+  }
+
+
+  .ftext1 {
+    margin: 48px 0 48px 0;
+    width: 100%;
+    font-size: 0.8rem;
+  }
+
+  .fa-instagram {
+    font-size: 0.8rem;
   }
 }
 
@@ -935,6 +971,12 @@ body {
 
   nav {
     height: 200px;
+  }
+
+  .nav2 {
+    width: 100%;
+    height: 150px;
+    z-index: 48;
   }
 
   .quick_menu li {

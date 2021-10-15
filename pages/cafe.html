@@ -99,22 +99,15 @@
 
         <div class="modalGrid">
           <p class="modalBody1">
-            · 숙박 고객<br />
-            11:00 - 18:00<br /><br />
-
-            · 카페 고객<br />
-            12:00 - 18:00<br /><br />
-
-            · 라스트 오더 17:30<br />
+            · 이용시간 11:00 – 18:00<br /><br />
+            · 라스트 오더 17:30<br /><br />
             · 월, 화요일 휴무입니다. <br /><br />
 
             (단, 공휴일인 경우 정상영업)
           </p>
           
           <p class="modalBody2">
-            · 스테이와 카페 모두 ‘노키즈존’으로 <br />
-            운영됩니다. (중학생 이상 입장가능) <br /><br />· 반려동물
-            동반입장이 불가합니다.<br /><br />
+            · 스테이와 카페 모두 노키즈존으로 운영되며 반려동물 동반 불가합니다.<br /><br />
 
             · 외부음식 반입이 불가합니다.<br /><br />
 
@@ -263,9 +256,25 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="../scripts/staySlide.js"></script>
     <script src="../scripts/modal.js"></script>
-    <script src="../scripts/bw.js"></script>
 
 
+    <script type="text/javascript" language="JavaScript">
+
+      var mobileKeyWords = new Array('iPhone', 'iPod', 'BlackBerry', 'Android', 'Windows CE', 'Windows CE;', 'LG', 'MOT', 'SAMSUNG', 'SonyEricsson', 'Mobile', 'Symbian', 'Opera Mobi', 'Opera Mini', 'IEmobile');
+      
+      for (var word in mobileKeyWords){
+      
+      if (navigator.userAgent.match(mobileKeyWords[word]) != null){
+      
+      window.location.href = "m.cafe.html";
+      
+      break;
+      
+      }
+      
+      }
+      
+      </script>
 
   </body>
 </html>
