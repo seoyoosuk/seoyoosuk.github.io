@@ -43,9 +43,12 @@
       rel="stylesheet"
       href="https://unpkg.com/swiper/swiper-bundle.min.css"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Domine:wght@500&family=Spectral:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cookie&family=Domine:wght@500&family=Spectral:wght@500&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
@@ -379,22 +382,31 @@
     <script src="../scripts/bw.js"></script>
 
     <script type="text/javascript" language="JavaScript">
+      var mobileKeyWords = new Array(
+        "iPhone",
+        "iPod",
+        "BlackBerry",
+        "Android",
+        "Windows CE",
+        "Windows CE;",
+        "LG",
+        "MOT",
+        "SAMSUNG",
+        "SonyEricsson",
+        "Mobile",
+        "Symbian",
+        "Opera Mobi",
+        "Opera Mini",
+        "IEmobile"
+      );
 
-      var mobileKeyWords = new Array('iPhone', 'iPod', 'BlackBerry', 'Android', 'Windows CE', 'Windows CE;', 'LG', 'MOT', 'SAMSUNG', 'SonyEricsson', 'Mobile', 'Symbian', 'Opera Mobi', 'Opera Mini', 'IEmobile');
-      
-      for (var word in mobileKeyWords){
-      
-      if (navigator.userAgent.match(mobileKeyWords[word]) != null){
-      
-      window.location.href = "m.stay.html";
-      
-      break;
-      
-      }
-      
-      }
-      
-      </script>
+      for (var word in mobileKeyWords) {
+        if (navigator.userAgent.match(mobileKeyWords[word]) != null) {
+          window.location.href = "m.stay.html";
 
+          break;
+        }
+      }
+    </script>
   </body>
 </html>

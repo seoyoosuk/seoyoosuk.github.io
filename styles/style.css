@@ -94,8 +94,7 @@ pre {
 }
 @font-face {
   font-family: "BareunBatangOTFM-subset.otf";
-  src: local(BareunBatangOTFM-subset),
-    local(BareunBatangOTFM-subset);
+  src: local(BareunBatangOTFM-subset), local(BareunBatangOTFM-subset);
   src: url(../fonts/BareunBatangOTFM-subset.woff) format("woff"),
     url(../fonts/BareunBatangOTFM-subset.otf) format("truetype");
 }
@@ -484,7 +483,7 @@ body {
   }
 
   .menuWrapper {
-    font-size: 0.80rem;
+    font-size: 0.8rem;
     grid-column-gap: 0px;
     grid-template-columns: repeat(4, 3fr);
     justify-content: space-evenly;
@@ -526,19 +525,15 @@ body {
     height: 100vh;
     object-fit: cover;
 
-  opacity: 0.3;
+    opacity: 0.3;
     backface-visibility: hidden;
   }
-
 
   .ftext1 {
     margin: 0 0 48px 0;
     width: 100%;
     font-size: 0.8rem;
   }
-}
-
-@media all and (min-width: 768px) {
 }
 
 @media all and (min-width: 1004px) {
@@ -586,9 +581,6 @@ body {
   nav {
     height: 180px;
   }
-
-
-
 
   .ftext1 {
     margin: 0 0 64px 10%;

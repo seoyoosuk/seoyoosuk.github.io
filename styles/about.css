@@ -266,8 +266,6 @@ nav {
   z-index: 49;
 }
 
-
-
 nav div .sticky {
   display: flex;
   margin: 0;
@@ -448,17 +446,6 @@ details > summary::-webkit-details-marker {
   display: none;
 }
 
-/* Media Query - Mobile page
-
-@media all and (min-width: 300px) {
-
-
-@media all and (min-width: 600px) {
-
-
-@media all and (min-width: 1024px) {
-} */
-
 .footer {
   line-height: 1.85;
   margin: 0 auto;
@@ -539,7 +526,7 @@ body {
   }
 
   .menuWrapper {
-    font-size: 0.80rem;
+    font-size: 0.8rem;
     grid-column-gap: 0px;
     grid-template-columns: repeat(4, 3fr);
     justify-content: space-evenly;
@@ -581,7 +568,7 @@ body {
     height: 100vh;
     object-fit: cover;
 
-  opacity: 0.3;
+    opacity: 0.3;
     backface-visibility: hidden;
   }
 
@@ -682,7 +669,7 @@ body {
     word-break: keep-all;
     display: block;
     margin: 3rem 0 25rem 67.5%;
-  
+
     font-size: 1rem;
   }
 

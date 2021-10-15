@@ -534,7 +534,6 @@ details > summary::-webkit-details-marker {
   text-decoration: none;
 }
 
-
 body {
   animation: fadein 1000ms ease-out;
   -moz-animation: fadein 1000ms ease-out; /* Firefox */
@@ -633,7 +632,7 @@ body {
     margin-left: 6px;
     margin-bottom: 24px;
   }
-  
+
   .modalBody1 {
     grid-column: 1;
     font-size: 0.75rem;
@@ -669,14 +668,14 @@ body {
     margin: 16px auto;
     padding: 16px;
     width: 75%;
-  
+
     cursor: pointer;
   }
 
   .bodyText {
     position: absolute;
     width: 100%;
-  
+
     margin-top: 175px;
     margin-left: 24px;
   }
@@ -685,27 +684,25 @@ body {
     display: block;
     width: 50vw;
     font-family: "BareunBatangOTFM-subset", serif;
-  
+
     margin-top: 0px;
     margin-bottom: 16px;
     font-size: 1rem;
-  
+
     z-index: 1;
   }
-  
+
   h2 {
     word-break: keep-all;
     display: block;
-  
+
     width: 85%;
     margin-bottom: 36px;
     font-size: 0.9rem;
     line-height: 1.75;
-  
+
     z-index: 1;
   }
-  
-
 
   table {
     display: block;
@@ -714,7 +711,7 @@ body {
     width: 85%;
     border-collapse: collapse;
   }
-  
+
   th,
   td {
     border: 1px solid #444444;
@@ -732,21 +729,18 @@ body {
     backface-visibility: hidden;
   }
 
-
-
   .footer {
     width: 75%;
     line-height: 1.85;
-  
+
     display: grid;
     grid-template-columns: repeat(1, 3fr);
     grid-auto-columns: minmax(100px, auto);
     grid-column-gap: 8px;
-  
+
     align-items: start;
     text-align: left;
   }
-
 
   .ftext1 {
     margin: 0 0 48px 0;
@@ -757,7 +751,6 @@ body {
   .fa-instagram {
     font-size: 0.8rem;
   }
-
 }
 
 @media all and (min-width: 768px) {
@@ -811,85 +804,85 @@ body {
 
   /* // * modal page */
 
-.modalGrid {
-  margin: 8px;
-  grid-gap: 24px;
+  .modalGrid {
+    margin: 8px;
+    grid-gap: 24px;
 
-  word-break: keep-all;
-  align-items: start;
-}
+    word-break: keep-all;
+    align-items: start;
+  }
 
-.modalHeader1 {
-  grid-column: 1;
-  font-family: "BareunBatangOTFM-subset", serif;
-  font-size: 1.2rem;
-  margin-left: 6px;
-  margin-bottom: 24px;
-}
+  .modalHeader1 {
+    grid-column: 1;
+    font-family: "BareunBatangOTFM-subset", serif;
+    font-size: 1.2rem;
+    margin-left: 6px;
+    margin-bottom: 24px;
+  }
 
-.modalBody1 {
-  grid-column: 1;
-  font-size: 1rem;
-  margin: 16px 16px 64px 16px;
-}
+  .modalBody1 {
+    grid-column: 1;
+    font-size: 1rem;
+    margin: 16px 16px 64px 16px;
+  }
 
-.ebcf_modal1 {
-  display: block;
-  position: fixed;
-  z-index: 100;
-  padding-top: 32vh;
-  font-size: 1rem;
-  line-height: 1.75;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: rgba(245, 245, 225, 0.7);
-}
-.mark1 {
-  text-align: left;
-  cursor: pointer;
-  width: 200px;
-  bottom: 0;
-  left: 0;
-}
+  .ebcf_modal1 {
+    display: block;
+    position: fixed;
+    z-index: 100;
+    padding-top: 32vh;
+    font-size: 1rem;
+    line-height: 1.75;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(245, 245, 225, 0.7);
+  }
+  .mark1 {
+    text-align: left;
+    cursor: pointer;
+    width: 200px;
+    bottom: 0;
+    left: 0;
+  }
 
-.ebcf_modal-content0 {
-  background-color: #acc476;
-  padding-left: 8px;
-  margin: 0 auto;
-  width: 100%;
-}
+  .ebcf_modal-content0 {
+    background-color: #acc476;
+    padding-left: 8px;
+    margin: 0 auto;
+    width: 100%;
+  }
 
-.ebcf_modal-content1 {
-  background-color: #acc476;
-  margin: 0 auto;
-  width: 27%;
-  padding: 48px;
-}
+  .ebcf_modal-content1 {
+    background-color: #acc476;
+    margin: 0 auto;
+    width: 27%;
+    padding: 48px;
+  }
 
-.ebcf_modal-content2 {
-  background-color: #acc476;
-  border: solid 3px white;
-  text-align: center;
-  margin: 28px auto;
-  padding: 28px;
-  width: 82.5%;
+  .ebcf_modal-content2 {
+    background-color: #acc476;
+    border: solid 3px white;
+    text-align: center;
+    margin: 28px auto;
+    padding: 28px;
+    width: 82.5%;
 
-  cursor: pointer;
-}
+    cursor: pointer;
+  }
 
-.ebcf_close1:hover,
-.ebcf_close1:focus {
-  cursor: pointer;
-  text-decoration: none;
-}
+  .ebcf_close1:hover,
+  .ebcf_close1:focus {
+    cursor: pointer;
+    text-decoration: none;
+  }
 
   .bodyText {
     position: absolute;
     width: 100%;
-  
+
     margin-top: 240px;
     margin-left: 180px;
   }
@@ -898,50 +891,50 @@ body {
     display: block;
     width: 50vw;
     font-family: "BareunBatangOTFM-subset", serif;
-  
+
     margin-top: 72px;
     margin-bottom: 24px;
     font-size: 1.25rem;
-  
+
     z-index: 1;
   }
-  
+
   h2 {
     word-break: keep-all;
-  
+
     width: 30vw;
     margin-top: 36px;
     margin-left: 16px;
     font-size: 1rem;
     line-height: 1.75;
-  
+
     z-index: 1;
   }
-  
+
   h3 {
     display: block;
     width: 50vw;
-  
+
     font-family: "BareunBatangOTFM-subset", serif;
-  
+
     margin-top: 72px;
     margin-bottom: 24px;
     margin-left: 45vw;
     font-size: 1.25rem;
-  
+
     z-index: 1;
   }
-  
+
   h4 {
     word-break: keep-all;
-  
+
     width: 28vw;
     margin-top: 36px;
     margin-left: 46vw;
-  
+
     font-size: 1rem;
     line-height: 1.75;
-  
+
     z-index: 1;
   }
 
@@ -952,7 +945,7 @@ body {
     width: 100%;
     border-collapse: collapse;
   }
-  
+
   th,
   td {
     border: 1px solid #444444;
@@ -974,16 +967,15 @@ body {
   .footer {
     width: 75%;
     line-height: 1.85;
-  
+
     display: grid;
     grid-template-columns: repeat(2, 3fr);
     grid-auto-columns: minmax(100px, auto);
     grid-column-gap: 8px;
-  
+
     align-items: start;
     text-align: left;
   }
-
 
   .ftext1 {
     margin: 0 0 64px 10%;

@@ -44,9 +44,12 @@
       href="https://unpkg.com/swiper/swiper-bundle.min.css"
     />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Domine:wght@500&family=Spectral:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cookie&family=Domine:wght@500&family=Spectral:wght@500&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
@@ -93,7 +96,8 @@
           <p class="modalBody1">
             예약관련 문의는 매일 09:00 - 22:00 <br />
             카카오톡 플러스 친구로 가능합니다.<br />
-            (카카오톡 채팅 - 돋보기 - <a href ="http://pf.kakao.com/_WtPgK">“SEOYOOSUK”</a> 친구추가)
+            (카카오톡 채팅 - 돋보기 -
+            <a href="http://pf.kakao.com/_WtPgK">“SEOYOOSUK”</a> 친구추가)
           </p>
           <div
             class="ebcf_modal-content2"
@@ -226,21 +230,31 @@
     <script src="../scripts/modal.js"></script>
 
     <script type="text/javascript" language="JavaScript">
+      var mobileKeyWords = new Array(
+        "iPhone",
+        "iPod",
+        "BlackBerry",
+        "Android",
+        "Windows CE",
+        "Windows CE;",
+        "LG",
+        "MOT",
+        "SAMSUNG",
+        "SonyEricsson",
+        "Mobile",
+        "Symbian",
+        "Opera Mobi",
+        "Opera Mini",
+        "IEmobile"
+      );
 
-      var mobileKeyWords = new Array('iPhone', 'iPod', 'BlackBerry', 'Android', 'Windows CE', 'Windows CE;', 'LG', 'MOT', 'SAMSUNG', 'SonyEricsson', 'Mobile', 'Symbian', 'Opera Mobi', 'Opera Mini', 'IEmobile');
-      
-      for (var word in mobileKeyWords){
-      
-      if (navigator.userAgent.match(mobileKeyWords[word]) != null){
-      
-      window.location.href = "m.resv.html";
-      
-      break;
-      
+      for (var word in mobileKeyWords) {
+        if (navigator.userAgent.match(mobileKeyWords[word]) != null) {
+          window.location.href = "m.resv.html";
+
+          break;
+        }
       }
-      
-      }
-      
-      </script>
+    </script>
   </body>
 </html>
