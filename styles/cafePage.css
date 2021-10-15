@@ -811,7 +811,7 @@ body {
 
   .titleA {
     font-family: "BareunBatangOTFM-subset", serif;
-    margin: 180px 0 0 32px;
+    margin: 100px 0 0 24px;
     font-size: 1rem;
   }
   .summaryA {
@@ -819,7 +819,7 @@ body {
     word-break: keep-all;
     font-size: 0.9rem;
 
-    margin: 3rem 16px 32px 32px;
+    margin: 3rem 16px 32px 24px;
   }
 
   .containerA {
