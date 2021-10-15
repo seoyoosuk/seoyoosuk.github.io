@@ -688,7 +688,7 @@ body {
   
     margin-top: 0px;
     margin-bottom: 16px;
-    font-size: 1.1rem;
+    font-size: 1rem;
   
     z-index: 1;
   }
@@ -698,7 +698,7 @@ body {
     display: block;
   
     width: 85%;
-    margin-bottom: 16px;
+    margin-bottom: 36px;
     font-size: 0.9rem;
     line-height: 1.75;
   
