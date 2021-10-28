@@ -470,14 +470,12 @@ details > summary::-webkit-details-marker {
 .modalHeader1 {
   grid-column: 1;
   font-family: "BareunBatangOTFM-subset", serif;
-  font-size: 1.2rem;
   margin-left: 6px;
   margin-bottom: 24px;
 }
 
 .modalBody1 {
   grid-column: 1;
-  font-size: 1rem;
   margin: 16px 16px 64px 16px;
 }
 
@@ -629,14 +627,14 @@ body {
   .modalHeader1 {
     grid-column: 1;
     font-family: "BareunBatangOTFM-subset", serif;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     margin-left: 6px;
     margin-bottom: 24px;
   }
 
   .modalBody1 {
     grid-column: 1;
-    font-size: 0.75rem;
+    font-size: 0.70rem;
     margin: 16px 16px 32px 16px;
   }
 
@@ -659,7 +657,7 @@ body {
     background-color: #acc476;
     margin: 0 auto;
     border-radius: 6px;
-    width: 64%;
+    width: 72.5%;
     padding: 16px;
   }
 
@@ -817,7 +815,7 @@ body {
   .modalHeader1 {
     grid-column: 1;
     font-family: "BareunBatangOTFM-subset", serif;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     margin-left: 6px;
     margin-bottom: 24px;
   }

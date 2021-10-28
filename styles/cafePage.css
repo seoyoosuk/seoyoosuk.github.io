@@ -574,10 +574,10 @@ details > summary::-webkit-details-marker {
 }
 
 .modalGrid {
-  margin: 8px;
+  margin: 6px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 24px;
+  grid-gap: 16px;
 
   word-break: keep-all;
   align-items: start;
@@ -764,18 +764,18 @@ body {
     margin: 0 auto;
     padding: 12px 16px 10px 16px;
     border-radius: 6px;
-    width: 65%;
+    width: 75%;
   }
 
   .modalHeader1 {
     font-family: "BareunBatangOTFM-subset", serif;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     margin-bottom: 4px;
   }
 
   .modalHeader2 {
     font-family: "BareunBatangOTFM-subset", serif;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 
   .modalBody1 {
