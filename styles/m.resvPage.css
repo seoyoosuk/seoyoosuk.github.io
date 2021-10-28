@@ -659,8 +659,8 @@ body {
     background-color: #acc476;
     margin: 0 auto;
     border-radius: 6px;
-    width: 70%;
-    padding: 24px;
+    width: 64%;
+    padding: 16px;
   }
 
   .ebcf_modal-content2 {
@@ -669,7 +669,7 @@ body {
     text-align: center;
     margin: 16px auto;
     padding: 16px;
-    width: 75%;
+    width: 65%;
 
     cursor: pointer;
   }
