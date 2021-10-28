@@ -251,7 +251,7 @@ nav {
   height: 200px;
   background-color: #edebe1;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 3px solid rgba(255, 255, 255, 0.1);
   position: sticky;
   top: 0;
   z-index: 49;
@@ -762,8 +762,9 @@ body {
   .ebcf_modal-content0 {
     background-color: #acc476;
     margin: 0 auto;
-    padding: 16px 24px 12px 24px;
-    width: 82%;
+    padding: 12px 16px 10px 16px;
+    border-radius: 6px;
+    width: 75%;
   }
 
   .modalHeader1 {
@@ -778,11 +779,11 @@ body {
   }
 
   .modalBody1 {
-    font-size: 0.75rem;
+    font-size: 0.70rem;
   }
 
   .modalBody2 {
-    font-size: 0.75rem;
+    font-size: 0.70rem;
   }
 
   .map-img {
@@ -811,15 +812,16 @@ body {
 
   .titleA {
     font-family: "BareunBatangOTFM-subset", serif;
-    margin: 86px 0 0 24px;
+    margin: 18px 0 0 2rem;
     font-size: 1rem;
   }
   .summaryA {
+    width: 75%;
     display: block;
     word-break: keep-all;
     font-size: 0.9rem;
 
-    margin: 3rem 16px 32px 24px;
+    margin: 1.5rem 16px 64px 2rem;
   }
 
   .containerA {

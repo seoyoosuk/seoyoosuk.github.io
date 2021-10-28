@@ -78,7 +78,7 @@
     <div class="linefixed"></div>
 
     <div class="container">
-      <img src="../images/about/about1.jpg" class="image" />
+      <img src="../images/about/about1-4.png" class="image" />
       <div class="middle">
         <p class="about">
           안녕하세요.<br /><br />
@@ -125,7 +125,7 @@
       한옥에서 여유롭게 즐기는 정갈한 조식은 더욱 즐겁게 해줍니다.
     </p>
 
-    <img src="../images/about/about5.jpg" class="imgA" />
+    <img src="../images/about/about4.jpg" class="imgA" />
 
     <div class="footer">
       <p class="ftext1">
@@ -150,5 +150,23 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="../scripts/jquery.min.js"></script>
     <script src="../scripts/bw.js"></script>
+
+    <script type="text/javascript" language="JavaScript">
+
+      var mobileKeyWords = new Array('iPhone', 'iPod', 'BlackBerry', 'Android', 'Windows CE', 'Windows CE;', 'LG', 'MOT', 'SAMSUNG', 'SonyEricsson', 'Mobile', 'Symbian', 'Opera Mobi', 'Opera Mini', 'IEmobile');
+      
+      for (var word in mobileKeyWords){
+      
+      if (navigator.userAgent.match(mobileKeyWords[word]) != null){
+      
+      window.location.href = "m.about.html";
+      
+      break;
+      
+      }
+      
+      }
+      
+      </script>
   </body>
 </html>

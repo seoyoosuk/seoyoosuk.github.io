@@ -144,7 +144,7 @@ body {
   text-align: center;
   line-height: 1.6;
   margin-top: 3rem;
-  color: #000;
+  color: rgba(25, 25, 25, 0.9);
   z-index: 50;
 }
 p {
@@ -155,6 +155,7 @@ p {
   font-family: "BareunBatangOTFB-subset", serif;
   position: fixed;
   width: 100%;
+  color: rgba(25, 25, 25, 0.9);
   font-size: 0.8125rem;
   text-align: center;
   margin-top: 84px;
@@ -164,8 +165,7 @@ p {
   position: fixed;
   display: block;
   width: 100%;
-  border: solid rgba(0, 0, 0, 0.1);
-  border-width: thin;
+  border: 1px solid rgba(24, 22, 22, 0.1);
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
   margin-top: 180px;
@@ -179,7 +179,7 @@ p {
   margin-top: 140px;
 
   width: 100%;
-
+  color: rgba(25, 25, 25, 0.9);
   display: grid;
   grid-template-columns: repeat(16, 3fr);
   grid-auto-columns: minmax(100px, auto);
@@ -256,7 +256,7 @@ ul {
   width: 100%;
   height: 100vh;
   object-fit: cover;
-  filter: blur(3px);
+
 }
 @media all and (min-width: 720px) {
   .swiper-slide img {
@@ -264,7 +264,7 @@ ul {
     width: 100%;
     height: 100vh;
     object-fit: cover;
-    filter: none;
+
   }
 }
 .swiper-button-next:after {
