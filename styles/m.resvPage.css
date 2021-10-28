@@ -378,26 +378,24 @@ a:hover {
 .linkText {
   position: absolute;
   display: block;
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   letter-spacing: 1.25px;
   color: white;
   top: 49%;
-  left: 45%;
+  left: 30%;
 }
 
 /* sticky box */
 
 nav {
   width: 100%;
-  height: 200px;
   background-color: #edebe1;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  position: fixed;
+  border-bottom: 3px solid rgba(255, 255, 255, 0.1);
+  position: sticky;
   top: 0;
   z-index: 49;
 }
-
 nav div .sticky {
   display: flex;
   margin: 0;
@@ -634,7 +632,7 @@ body {
 
   .modalBody1 {
     grid-column: 1;
-    font-size: 0.70rem;
+    font-size: 0.7rem;
     margin: 16px 16px 32px 16px;
   }
 
@@ -672,32 +670,24 @@ body {
     cursor: pointer;
   }
 
-  .bodyText {
-    position: absolute;
-    width: 100%;
-
-    margin-top: 175px;
-    margin-left: 24px;
-  }
-
-  h1 {
-    display: block;
-    width: 50vw;
+  .title1 {
     font-family: "BareunBatangOTFM-subset", serif;
 
-    margin-top: 0px;
-    margin-bottom: 16px;
-    font-size: 1rem;
+    display: block;
+    width: 100%;
 
+    margin: 0px 0 16px 24px;
+
+    font-size: 1rem;
     z-index: 1;
   }
-
-  h2 {
+  .body1 {
     word-break: keep-all;
     display: block;
 
     width: 85%;
-    margin-bottom: 36px;
+    padding-top: 8px;
+    margin: 0px 0 32px 24px;
     font-size: 0.9rem;
     line-height: 1.75;
 
@@ -707,7 +697,7 @@ body {
   table {
     display: block;
     font-size: 0.9rem;
-    margin: 48px 0 48px 0px;
+    margin: 48px 0 48px 24px;
     width: 85%;
     border-collapse: collapse;
   }
@@ -743,7 +733,7 @@ body {
   }
 
   .ftext1 {
-    margin: 0 0 48px 0;
+    margin: 0 0 48px 24px;
     width: 100%;
     font-size: 0.8rem;
   }
