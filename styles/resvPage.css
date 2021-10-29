@@ -251,28 +251,32 @@ a:hover {
 
   justify-items: center;
   align-content: center;
-  grid-row: 1;
+ transition: color 0.25s;
+  transition-delay: 0.125s;
 }
 .menu2 {
   cursor: pointer;
   grid-column: 6;
   text-align: center;
 
-  grid-row: 1;
+ transition: color 0.25s;
+  transition-delay: 0.125s;
 }
 .menu3 {
   cursor: pointer;
   grid-column: 7;
   text-align: center;
 
-  grid-row: 1;
+ transition: color 0.25s;
+  transition-delay: 0.125s;
 }
 .menu4 {
   cursor: pointer;
   grid-column: 8;
   text-align: center;
 
-  grid-row: 1;
+ transition: color 0.25s;
+  transition-delay: 0.125s;
 }
 
 @media all and (min-width: 1200px) {
@@ -321,8 +325,8 @@ a:hover {
   }
 
   .menu1:hover {
-    text-decoration: underline;
-    text-underline-position: under;
+  color: silver;
+  text-decoration: none;
   }
   .menu2 {
     cursor: pointer;
@@ -333,8 +337,8 @@ a:hover {
     z-index: 55;
   }
   .menu2:hover {
-    text-decoration: underline;
-    text-underline-position: under;
+  color: silver;
+  text-decoration: none;
   }
 
   .menu3 {
@@ -346,8 +350,8 @@ a:hover {
     z-index: 55;
   }
   .menu3:hover {
-    text-decoration: underline;
-    text-underline-position: under;
+  color: silver;
+  text-decoration: none;
   }
   .menu4 {
     cursor: pointer;
@@ -358,8 +362,8 @@ a:hover {
     z-index: 55;
   }
   .menu4:hover {
-    text-decoration: underline;
-    text-underline-position: under;
+  color: silver;
+  text-decoration: none;
   }
 }
 /* ///// setting ///// */
