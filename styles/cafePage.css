@@ -295,11 +295,14 @@ nav div .sticky {
   align-content: center;
   grid-row: 1;
   z-index: 50;
+
+  transition: color 0.25s;
+  transition-delay: 0.125s;
 }
 
 .menu1:hover {
-  text-decoration: underline;
-  text-underline-position: under;
+  color: silver;
+  text-decoration: none;
 }
 .menu2 {
   cursor: pointer;
@@ -308,10 +311,13 @@ nav div .sticky {
 
   grid-row: 1;
   z-index: 50;
+
+  transition: color 0.25s;
+  transition-delay: 0.125s;
 }
 .menu2:hover {
-  text-decoration: underline;
-  text-underline-position: under;
+  color: silver;
+  text-decoration: none;
 }
 
 .menu3 {
@@ -321,10 +327,13 @@ nav div .sticky {
 
   grid-row: 1;
   z-index: 50;
+
+  transition: color 0.25s;
+  transition-delay: 0.125s;
 }
 .menu3:hover {
-  text-decoration: underline;
-  text-underline-position: under;
+  color: silver;
+  text-decoration: none;
 }
 .menu4 {
   cursor: pointer;
@@ -333,10 +342,13 @@ nav div .sticky {
 
   grid-row: 1;
   z-index: 50;
+
+  transition: color 0.25s;
+  transition-delay: 0.125s;
 }
 .menu4:hover {
-  text-decoration: underline;
-  text-underline-position: under;
+  color: silver;
+  text-decoration: none;
 }
 
 /* content */
