@@ -716,11 +716,12 @@ body {
   .linkText {
     position: absolute;
     display: block;
-    font-size: 1.25rem;
-    letter-spacing: 1.25px;
+    font-size: 1.1rem;
+    letter-spacing: 1.2px;
     color: white;
-    top: 47%;
-    left: 43%;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
   .center {
@@ -779,11 +780,11 @@ body {
   }
 
   .modalBody1 {
-    font-size: 0.70rem;
+    font-size: 0.7rem;
   }
 
   .modalBody2 {
-    font-size: 0.70rem;
+    font-size: 0.7rem;
   }
 
   .map-img {
@@ -813,7 +814,7 @@ body {
   .titleA {
     font-family: "BareunBatangOTFM-subset", serif;
     margin: 18px 0 0 2rem;
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
   .summaryA {
     width: 75%;
@@ -999,8 +1000,9 @@ body {
     font-size: 1.25rem;
     letter-spacing: 1.25px;
     color: white;
-    top: 49%;
-    left: 49%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
   .center {

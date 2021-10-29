@@ -373,11 +373,12 @@ details > summary::-webkit-details-marker {
 .linkText {
   position: absolute;
   display: block;
-  font-size: 1.25rem;
-  letter-spacing: 1.25px;
+  font-size: 1.1rem;
+  letter-spacing: 1.2px;
   color: #fff;
-  top: 49%;
-  left: 24.5%;
+  top: 51%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .footer {
   line-height: 1.85;

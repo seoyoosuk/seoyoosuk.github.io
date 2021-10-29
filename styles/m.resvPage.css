@@ -375,16 +375,6 @@ a:hover {
   z-index: -1;
 }
 
-.linkText {
-  position: absolute;
-  display: block;
-  font-size: 1.2rem;
-  letter-spacing: 1.25px;
-  color: white;
-  top: 49%;
-  left: 30%;
-}
-
 /* sticky box */
 
 nav {
@@ -618,6 +608,17 @@ body {
     margin-top: 150px;
   }
 
+  .linkText {
+    position: absolute;
+    display: block;
+    font-size: 1.1rem;
+    letter-spacing: 1.2px;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
   nav {
     height: 150px;
   }
@@ -672,24 +673,19 @@ body {
 
   .title1 {
     font-family: "BareunBatangOTFM-subset", serif;
-
     display: block;
     width: 100%;
-
     margin: 0px 0 12px 24px;
-
     font-size: 1rem;
     z-index: 1;
   }
   .body1 {
     word-break: keep-all;
     display: block;
-
     width: 85%;
     margin: 0px 0 32px 24px;
     font-size: 0.9rem;
     line-height: 1.75;
-
     z-index: 1;
   }
 
@@ -742,8 +738,6 @@ body {
   }
 }
 
-@media all and (min-width: 768px) {
-}
 
 @media all and (min-width: 1004px) {
   .header {
