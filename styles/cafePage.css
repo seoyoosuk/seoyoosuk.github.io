@@ -235,7 +235,7 @@ a:hover {
 
   width: 100%;
 
-  border: solid rgba(0, 0, 0, 0.1);
+  border: solid rgba(255, 255, 255, 0.1);
   border-width: thin;
   -webkit-background-clip: padding-box; /* for Safari */
   background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
@@ -256,6 +256,8 @@ nav {
   top: 0;
   z-index: 49;
 }
+
+
 
 .nav2 {
   width: 100%;
@@ -972,7 +974,7 @@ body {
   }
 
   .linefixed {
-    margin-top: 180px;
+    margin-top: 200px;
   }
 
   nav {
