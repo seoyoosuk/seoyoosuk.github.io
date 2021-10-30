@@ -711,7 +711,7 @@ body {
     display: block;
     font-size: 1rem;
 
-    margin: 16px 0 32px 64px;
+    margin: 16px 0 32px 0px;
 
     z-index: 1;
     grid-column: 2 / 1;
@@ -721,7 +721,7 @@ body {
     word-break: keep-all;
     display: inline-block;
 
-    width: 40%;
+    width: 50%;
     padding-top: 32px;
     margin: 0px 0 32px 0;
     font-size: 0.9rem;
@@ -738,7 +738,7 @@ body {
     width: 30%;
 
     padding-top: 32px;
-    margin: 16px 0 32px 64px;
+    margin: 16px 0 32px 0px;
     font-size: 0.9rem;
     line-height: 1.75;
     z-index: 1;
@@ -793,12 +793,12 @@ body {
   }
 }
 
-@media all and (min-width: 720px) {
+@media all and (min-width: 480px) {
   .title1 {
-    width: 50vw;
+    width: 40vw;
     font-family: "BareunBatangOTFM-subset", serif;
 
-    margin-left: 64px;
+    margin-left: 48px;
     margin-bottom: 24px;
     font-size: 1.1rem;
 
@@ -817,9 +817,8 @@ body {
 
   .body1 {
     word-break: keep-all;
-
     margin-top: 24px;
-    margin-left: 64px;
+    margin-left: 48px;
     font-size: 0.95rem;
     line-height: 1.75;
     z-index: 1;
