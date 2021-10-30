@@ -452,44 +452,6 @@ details > summary::-webkit-details-marker {
   z-index: 1000;
 }
 
-.mapContainer {
-  display: block;
-  width: 100%;
-  height: 32px;
-
-  text-align: left;
-  margin-left: 46.5%;
-}
-
-.map-text {
-  font-family: "BareunBatangOTFM-subset", serif;
-  color: #9b6325;
-  font-size: 1.1rem;
-  text-align: center;
-
-  margin-top: 64px;
-  margin-bottom: 24px;
-
-  z-index: 59;
-}
-
-.map-num {
-  position: absolute;
-  width: 32px;
-  margin-top: -2px;
-  margin-left: -6px;
-}
-
-.map-sum {
-  width: 32px;
-  color: #9b6325;
-  font-size: 0.9rem;
-
-  margin-left: 36px;
-  margin-top: -16px;
-
-  display: inline;
-}
 
 .section {
   width: 100%;
@@ -741,6 +703,7 @@ body {
 
   .flower {
     margin: 16px 0 24px 0px;
+    width: 65%;
   }
 
   .centerHeader {
@@ -760,6 +723,54 @@ body {
     margin: 0 auto;
   }
 
+  .mapContainer {
+    display: block;
+    width: 100%;
+    height: 32px;
+  
+    text-align: left;
+    margin-left: 46.5%;
+  }
+  
+  .map-text {
+    font-family: "BareunBatangOTFM-subset", serif;
+    color: #9b6325;
+    font-size: 1rem;
+    text-align: center;
+  
+    margin-top: 64px;
+    margin-bottom: 24px;
+  
+    z-index: 59;
+  }
+
+  .map-img {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  
+  
+  .map-num {
+    position: absolute;
+    width: 24px;
+    margin-top: 0px;
+    margin-left: -48px;
+  }
+
+  .map-sum {
+    width: 32px;
+    color: #9b6325;
+    font-size: 0.9rem;
+
+    margin-left: -8px;
+    margin-top: -16px;
+
+    display: inline;
+  }
+
+
   .ftext1 {
     margin: 0 0 48px 10%;
     width: 100%;
@@ -771,7 +782,7 @@ body {
   }
 
   .ebcf_modal1 {
-    padding-top: 37.5%;
+    padding-top: 47.5%;
   }
 
   .ebcf_modal-content0 {
@@ -801,29 +812,7 @@ body {
     font-size: 0.7rem;
   }
 
-  .map-img {
-    display: block;
-    margin: 0 auto;
-    width: 90%;
-  }
 
-  .map-num {
-    position: absolute;
-    width: 32px;
-    margin-top: -2px;
-    margin-left: -50px;
-  }
-
-  .map-sum {
-    width: 32px;
-    color: #9b6325;
-    font-size: 0.9rem;
-
-    margin-left: -8px;
-    margin-top: -12px;
-
-    display: inline;
-  }
 
   .titleA {
     font-family: "BareunBatangOTFM-subset", serif;
@@ -1025,6 +1014,7 @@ body {
 
   .flower {
     margin: 16px 0 0px 0px;
+    width: 100%;
   }
 
   .centerHeader {
@@ -1038,6 +1028,45 @@ body {
   .centerSummary {
     font-size: 1rem;
     width: 85%;
+  }
+
+  .mapContainer {
+    display: block;
+    width: 100%;
+    height: 32px;
+  
+    text-align: left;
+    margin-left: 46.5%;
+  }
+  
+  .map-text {
+    font-family: "BareunBatangOTFM-subset", serif;
+    color: #9b6325;
+    font-size: 1.1rem;
+    text-align: center;
+  
+    margin-top: 64px;
+    margin-bottom: 24px;
+  
+    z-index: 59;
+  }
+  
+  .map-num {
+    position: absolute;
+    width: 32px;
+    margin-top: -2px;
+    margin-left: -6px;
+  }
+  
+  .map-sum {
+    width: 32px;
+    color: #9b6325;
+    font-size: 0.9rem;
+  
+    margin-left: 36px;
+    margin-top: -16px;
+  
+    display: inline;
   }
 
   .ftext1 {
