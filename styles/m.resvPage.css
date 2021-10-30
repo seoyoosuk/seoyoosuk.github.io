@@ -589,7 +589,7 @@ body {
   }
 
   .menuWrapper {
-    font-size: 0.8rem;
+    font-size: 0.85rem;
     grid-column-gap: 0px;
     grid-template-columns: repeat(4, 3fr);
     justify-content: space-evenly;
