@@ -122,6 +122,7 @@ body {
   font-family: "SpoqaHanSansNeo-Regular", "Arial", sans-serif;
   word-spacing: -0.4ch;
   width: 100%;
+  overflow-x: hidden;
   -webkit-text-size-adjust: 100%;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -482,6 +483,12 @@ body {
     position: absolute;
     cursor: pointer;
     z-index: 10000;
+
+    -ms-user-select: none;
+    -moz-user-select: -moz-none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
   }
   .swiper-button-prev:after {
     color: #d2d2d2;
@@ -489,6 +496,12 @@ body {
     position: absolute;
     cursor: pointer;
     z-index: 10000;
+
+    -ms-user-select: none;
+    -moz-user-select: -moz-none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
   }
   .swiper-button-next:after:hover,
   .swiper-button-prev:after:hover {
