@@ -279,21 +279,23 @@ ul {
 }
 .swiper-button-next:after {
   display: none;
+  font-size: 2.5rem !important;
 }
 .swiper-button-prev:after {
   display: none;
+  font-size: 2.5rem !important;
 }
 @media all and (min-width: 720px) {
   .swiper-button-next:after {
     display: block;
-    color: #fff;
+    color: silver;
     padding-right: 5rem;
     position: absolute;
     top: 50%;
   }
   .swiper-button-prev:after {
     display: block;
-    color: #fff;
+    color: silver;
     padding-left: 5rem;
     position: absolute;
     top: 50%;
