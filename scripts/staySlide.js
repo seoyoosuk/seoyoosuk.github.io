@@ -16,6 +16,11 @@ var swiper = new Swiper(".mySwiper01", {
     prevEl: ".swiper-button-prev",
   },
 
+  pagination: {
+    el: '.swiper-pagination',
+    type: 'bullets',
+  }
+
 });
 
 var swiper = new Swiper(".mySwiper02", {
@@ -117,3 +122,4 @@ var swiper = new Swiper(".mySwiper06", {
   },
 
 });
+
