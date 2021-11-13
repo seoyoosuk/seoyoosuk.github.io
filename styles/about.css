@@ -258,7 +258,7 @@ header:after {
 
 nav {
   width: 100%;
-  background-color: #edebe1;
+  background-color: rgba(237, 235, 225, 0.97);
   /* border-top: 1px solid rgba(255, 255, 255, 0.1);
   border-bottom: 3px solid rgba(255, 255, 255, 0.1); */
   position: sticky;

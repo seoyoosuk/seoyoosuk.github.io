@@ -203,24 +203,6 @@ a:hover {
   text-underline-position: under;
   cursor: pointer;
 }
-
-.linefixed {
-  position: fixed;
-  display: block;
-
-  width: 100%;
-
-  border: solid rgba(255, 255, 255, 0.1);
-  border-width: thin;
-  -webkit-background-clip: padding-box; /* for Safari */
-  background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
-
-  margin-top: 180px;
-
-  z-index: 51;
-  text-align: center;
-}
-
 .about {
   width: 40%;
   font-size: 1.1rem;
@@ -391,7 +373,7 @@ a:hover {
 
 nav {
   width: 100%;
-  background-color: #edebe1;
+  background-color: rgba(237, 235, 225, 0.97);
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   border-bottom: 3px solid rgba(255, 255, 255, 0.1);
   position: sticky;
