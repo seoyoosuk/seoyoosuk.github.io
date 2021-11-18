@@ -891,8 +891,8 @@ body {
 
   p.ftext1 {
     width: 75%;
-    left: 5em;
-    transform: translate(3em);
+    left: 5.5em;
+    transform: translate(-3em);
 
     grid-column: 1;
   }
