@@ -343,6 +343,8 @@ h1 {
   width: 20%;
   margin-top: 64px;
   margin-left: 21rem;
+
+  word-break: keep-all;
 }
 
 li {
