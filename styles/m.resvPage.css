@@ -383,7 +383,7 @@ nav {
 nav div .sticky {
   display: flex;
   margin: 0;
-  padding: 0 100px;
+ 
   justify-content: flex-end;
 }
 

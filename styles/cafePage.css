@@ -129,7 +129,6 @@ pre {
 html,
 body {
   max-width: 100%;
-  overflow-x: hidden;
 }
 
 body {
@@ -267,7 +266,7 @@ nav {
 nav div .sticky {
   display: flex;
   margin: 0;
-  padding: 0 100px;
+ 
   justify-content: flex-end;
 }
 
