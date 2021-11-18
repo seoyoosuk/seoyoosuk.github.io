@@ -136,6 +136,7 @@ body {
   font-weight: 300;
   word-spacing: -0.4ch;
   width: 100%;
+  touch-action: none;
 
   -webkit-text-size-adjust: 100%;
   -webkit-box-sizing: border-box;
