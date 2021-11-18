@@ -17,8 +17,6 @@
     //TODO: generate corresponding touches
    }
   }
-
-  
  
   function mouseFromTouch(type, touch) {
    var event = document.createEvent("MouseEvent");
@@ -106,5 +104,3 @@
 
    }
  };
-
- 
