@@ -136,6 +136,7 @@ body {
   user-select: none;
   background-color: #edebe1;
 }
+
 .header {
   font-family: "Spectral", "BareunBatangOTFB-subset", serif;
   position: fixed;
@@ -156,6 +157,7 @@ p {
   position: fixed;
   width: 100%;
   color: rgba(25, 25, 25, 0.9);
+
   font-size: 0.8125rem;
   text-align: center;
   margin-top: 84px;
