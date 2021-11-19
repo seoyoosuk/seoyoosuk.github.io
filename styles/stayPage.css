@@ -159,14 +159,14 @@ body {
   background-color: #edebe1;
 }
 
-header{
+header {
   color: white;
 }
 
 .inner {
-  max-width:100%;
-  margin:0 auto;
-  padding:0 20px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 .header {
@@ -199,7 +199,7 @@ a {
 }
 a:hover {
   text-decoration: underline;
-text-underline-position: under;
+  text-underline-position: under;
   cursor: pointer;
 }
 
@@ -246,7 +246,7 @@ nav {
 nav div .sticky {
   display: flex;
   margin: 0;
- 
+
   justify-content: flex-end;
 }
 
@@ -488,7 +488,22 @@ details > summary::-webkit-details-marker {
   letter-spacing: 1.25px;
   color: white;
   top: 49%;
-  left: 24.5%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+}
+
+.scrollMap {
+  font-family: "SpoqaHanSansNeo-Medium";
+  position: absolute;
+  display: block;
+
+  font-size: 4.5rem;
+  color: white;
+  top: 95%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
 }
 
 /* Media Query - Mobile page
@@ -524,7 +539,7 @@ details > summary::-webkit-details-marker {
   grid-column: 1;
 }
 
-.fa-instagram{
+.fa-instagram {
   font-size: 16px;
 }
 body {

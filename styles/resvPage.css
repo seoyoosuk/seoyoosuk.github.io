@@ -664,6 +664,16 @@ body {
     cursor: pointer;
   }
 
+  .exit{
+    position: absolute;
+    font-size: 3rem;
+    cursor: pointer;
+    margin-top: -52px;
+    margin-left: 26%;
+
+    color: white;
+  }
+
   .bodyText {
     width: 100%;
     margin-left: 24px;
@@ -677,6 +687,19 @@ body {
     color: white;
     top: 48%;
     left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .scrollMap {
+    font-family: "SpoqaHanSansNeo-Medium";
+    position: absolute;
+    display: block;
+  
+    font-size: 4.5rem;
+    color: white;
+    top: 95%;
+    left: 50%;
+  
     transform: translate(-50%, -50%);
   }
 

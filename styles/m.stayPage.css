@@ -346,6 +346,19 @@ details > summary::-webkit-details-marker {
   transform: translate(-50%, -50%);
 }
 
+.scrollMap {
+  font-family: "SpoqaHanSansNeo-Medium";
+  position: absolute;
+  display: block;
+
+  font-size: 4.5rem;
+  color: white;
+  top: 95%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+}
+
 .ftext1 {
   text-align: left;
   padding-bottom: 48px;

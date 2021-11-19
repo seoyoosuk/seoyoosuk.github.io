@@ -124,12 +124,12 @@ pre {
 }
 
 @font-face {
-  font-family: "SpoqaHanSansNeo-Bold";
+  font-family: "SpoqaHanSansNeo-Medium";
   font-style: Bold;
   font-weight: 500;
-  src: local("SpoqaHanSansNeo-Bold"), local("SpoqaHanSansNeo-Bold");
-  src: url(../fonts/SpoqaHanSansNeo-Bold.woff) format("woff"),
-    url(../fonts/SpoqaHanSansNeo-Bold.otf) format("truetype");
+  src: local("SpoqaHanSansNeo-Medium"), local("SpoqaHanSansNeo-Medium");
+  src: url(../fonts/SpoqaHanSansNeo-Medium.woff) format("woff"),
+    url(../fonts/SpoqaHanSansNeo-Medium.otf) format("truetype");
 }
 
 html,
@@ -204,15 +204,6 @@ header:after {
   margin: 0 auto;
   padding: 0;
 }
-
-/* .down {
-  background-color: rgba(0, 0, 0, 0.8);
-  -webkit-transition-duration: 0.4s;
-  -webkit-transition-timing-function: ease;
-  transition-duration: 0.4s;
-  transition-timing-function: ease;
-} */
-
 .header {
   font-family: "Spectral", "BareunBatangOTFB-subset", serif;
   position: fixed;
@@ -379,6 +370,19 @@ nav div .sticky {
   line-height: 1.85;
 
   z-index: 5000;
+}
+
+.scrollMap {
+  font-family: "SpoqaHanSansNeo-Medium";
+  position: absolute;
+  display: block;
+
+  font-size: 4.5rem;
+  color: white;
+  top: 95%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
 }
 
 .image {
@@ -682,7 +686,7 @@ body {
   }
 
   .ftext1 {
-    margin: 0 auto;
+    margin: 0 20%;
     width: 55%;
     font-size: 1rem;
   }
