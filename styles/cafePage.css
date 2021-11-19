@@ -774,8 +774,13 @@ body {
     transform: translate(50%, -25%);
   }
 
-  .ftext1 {
+  p.ftext1 {
     font-size: 0.8rem;
+    width: 75%;
+    left: 3em;
+    transform: translate(3em);
+
+    grid-column: 1;
   }
 
   .quick_menu2 {
@@ -910,13 +915,7 @@ body {
     row-gap: 12px;
   }
 
-  p.ftext1 {
-    width: 75%;
-    left: 5.5em;
-    transform: translate(-3em);
 
-    grid-column: 1;
-  }
 
   .fa-instagram {
     font-size: 0.8rem;
