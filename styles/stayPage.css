@@ -395,7 +395,7 @@ details > summary::-webkit-details-marker {
   top: -12.5rem;
 
   cursor: pointer;
-  z-index: 1000000;
+  z-index: 10000 !important;
 }
 
 .swiper-button-prev:after {
@@ -405,7 +405,7 @@ details > summary::-webkit-details-marker {
   top: -12.5rem;
   cursor: pointer;
 
-  z-index: 1000000;
+  z-index: 10000 !important;
 }
 
 .swiper-button-next:after:hover,
@@ -419,6 +419,10 @@ details > summary::-webkit-details-marker {
 /* quick menu */
 
 /* quick menu */
+
+.quick_menu{
+  width: 50%;
+}
 
 .quick_menu li {
   font-family: "BareunBatangOTFM-subset", serif;
@@ -494,11 +498,10 @@ details > summary::-webkit-details-marker {
 }
 
 .scrollMap {
-  font-family: "SpoqaHanSansNeo-Medium";
+  width: 36px;
   position: absolute;
   display: block;
 
-  font-size: 4.5rem;
   color: white;
   top: 95%;
   left: 50%;

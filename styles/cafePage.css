@@ -564,15 +564,6 @@ details > summary::-webkit-details-marker {
   text-decoration: none;
 }
 
-.ftext1 {
-  text-align: left;
-  margin: 0 0 64px 0;
-  grid-column: 1;
-}
-.fa-instagram {
-  font-size: 16px;
-}
-
 body {
   animation: fadein 1000ms ease-out;
   -moz-animation: fadein 1000ms ease-out; /* Firefox */
@@ -680,18 +671,16 @@ body {
   }
 
   .scrollMap {
-    font-family: "SpoqaHanSansNeo-Medium";
+    width: 36px;
     position: absolute;
     display: block;
-
-    font-size: 4.5rem;
+  
     color: white;
     top: 95%;
     left: 50%;
+  
     transform: translate(-50%, -50%);
   }
-
-  
 
   .center {
     text-align: center;
@@ -712,8 +701,6 @@ body {
 
     text-align: left;
     margin: 16px 0 32px 48%;
-
-    
   }
 
   .centerHeader {
@@ -774,12 +761,11 @@ body {
     transform: translate(50%, -25%);
   }
 
-  p.ftext1 {
-    font-size: 0.8rem;
+  .ftext1 {
     width: 75%;
-    left: 3em;
-    transform: translate(3em);
-
+    left: 5.5em;
+    transform: translate(-3em);
+    padding-bottom: 48px;
     grid-column: 1;
   }
 
@@ -818,7 +804,7 @@ body {
     font-size: 0.7rem;
   }
 
-  .exit{
+  .exit {
     position: absolute;
     font-size: 1.5rem;
     cursor: pointer;
@@ -827,7 +813,6 @@ body {
 
     color: white;
   }
-
 
   .titleA {
     font-family: "BareunBatangOTFM-subset", serif;
@@ -914,8 +899,6 @@ body {
     column-gap: 12px;
     row-gap: 12px;
   }
-
-
 
   .fa-instagram {
     font-size: 0.8rem;
@@ -1036,8 +1019,6 @@ body {
     text-align: left;
     margin-left: 66%;
     margin-top: 24px;
-
-    
   }
 
   .cafe-text {
@@ -1089,9 +1070,14 @@ body {
   }
 
   .ftext1 {
-    margin: 0 0 64px 17.5%;
+    text-align: left;
+    margin: 0 0 64px 336px;
     width: 55%;
     font-size: 1rem;
+  }
+
+  .fa-instagram {
+    font-size: 16px;
   }
 
   .quick_menu2 {
@@ -1132,21 +1118,19 @@ body {
     font-size: 1rem;
   }
 
-  markModal{
+  markModal {
     background-color: n;
   }
 
-  .exit{
+  .exit {
     position: absolute;
-    font-size: 3rem;
+    font-size: 2.5rem;
     cursor: pointer;
     margin-top: -36px;
     margin-left: 34%;
 
-    color: white;
+    color: rgba(230, 230, 230, 1);
   }
-
-
 
   .map-img {
     display: block;
@@ -1196,7 +1180,6 @@ body {
     height: auto;
     object-fit: inherit;
 
-    margin-top: 32px;
   }
 
   .item1 {
