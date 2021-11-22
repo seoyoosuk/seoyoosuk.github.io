@@ -764,9 +764,11 @@ body {
   .ftext1 {
     width: 75%;
     left: 5.5em;
-    transform: translate(-3em);
+    transform: translate(2.5em);
     padding-bottom: 48px;
     grid-column: 1;
+
+    font-size: 0.8rem;
   }
 
   .quick_menu2 {
@@ -1070,6 +1072,7 @@ body {
   }
 
   .ftext1 {
+    transform: translate(0em);
     text-align: left;
     margin: 0 0 64px 336px;
     width: 55%;
