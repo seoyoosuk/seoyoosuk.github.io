@@ -691,7 +691,7 @@ body {
 
   .flower {
     margin: 24px 0 82px 0px;
-    width: 40%;
+    width: 50%;
   }
 
   .mapContainer {
@@ -738,6 +738,7 @@ body {
     display: block;
     margin: 0 auto;
     width: 90%;
+    padding-top: 32px;
   }
 
   .map-num {
@@ -765,10 +766,10 @@ body {
     width: 75%;
     left: 5.5em;
     transform: translate(2.5em);
-    padding-bottom: 48px;
+    padding-bottom: 24px;
     grid-column: 1;
 
-    font-size: 0.8rem;
+    font-size: 0.75rem;
   }
 
   .quick_menu2 {
@@ -997,7 +998,7 @@ body {
 
   .flower {
     margin: 16px 0 24px 0px;
-    width: 25%;
+    width: 30%;
   }
 
   .centerHeader {
