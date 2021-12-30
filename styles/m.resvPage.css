@@ -429,14 +429,13 @@ details > summary::-webkit-details-marker {
   z-index: 50;
 }
 
-.cafeMap {
-  width: 75%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  margin-top: 60vh;
-  margin-left: 50%;
-  z-index: -51;
+aside {
+  font-family: "BareunBatangOTFB-subset", serif;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  text-align: center;
+  
+margin: 48px 16px 64px 16px;
 }
 
 /* // * modal page */
@@ -499,12 +498,11 @@ details > summary::-webkit-details-marker {
 }
 
 .ebcf_modal-content2 {
-  background-color: #acc476;
   border: solid 3px white;
   text-align: center;
   margin: 28px auto;
   padding: 28px;
-  width: 82.5%;
+  width: 50%;
 
   cursor: pointer;
 }
@@ -667,16 +665,6 @@ body {
     padding: 16px;
   }
 
-  .ebcf_modal-content2 {
-    background-color: #acc476;
-    border: solid 2px white;
-    text-align: center;
-    margin: 16px auto;
-    padding: 16px;
-    width: 65%;
-
-    cursor: pointer;
-  }
 
   .exit{
     position: absolute;
@@ -861,16 +849,6 @@ body {
     padding: 48px;
   }
 
-  .ebcf_modal-content2 {
-    background-color: #acc476;
-    border: solid 3px white;
-    text-align: center;
-    margin: 28px auto;
-    padding: 28px;
-    width: 82.5%;
-
-    cursor: pointer;
-  }
 
   .ebcf_close1:hover,
   .ebcf_close1:focus {
