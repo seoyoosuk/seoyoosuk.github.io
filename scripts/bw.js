@@ -1,7 +1,7 @@
 $(document).ready(function () {
   $(window).scroll(function () {
     var scroll = $(window).scrollTop();
-    if (scroll > 600) {
+    if (scroll > 625) {
       $(".header, .caption, .menuWrapper, .quick_menu2 li a").css(
         "color",
         "#000"
