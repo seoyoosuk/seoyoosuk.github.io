@@ -135,7 +135,6 @@ pre {
 html,
 body {
   max-width: 100%;
-
 }
 
 body {
@@ -383,7 +382,7 @@ nav {
 nav div .sticky {
   display: flex;
   margin: 0;
- 
+
   justify-content: flex-end;
 }
 
@@ -434,8 +433,8 @@ aside {
   font-size: 1.2rem;
   line-height: 1.6;
   text-align: center;
-  
-margin: 48px 16px 64px 16px;
+
+  margin: 48px 16px 64px 16px;
 }
 
 /* // * modal page */
@@ -615,12 +614,12 @@ body {
     font-family: "SpoqaHanSansNeo-Medium";
     position: absolute;
     display: block;
-  
+
     font-size: 4.5rem;
     color: white;
     top: 95%;
     left: 50%;
-  
+
     transform: translate(-50%, -50%);
   }
 
@@ -665,8 +664,7 @@ body {
     padding: 16px;
   }
 
-
-  .exit{
+  .exit {
     position: absolute;
     font-size: 1.5rem;
     cursor: pointer;
@@ -848,7 +846,6 @@ body {
     width: 27%;
     padding: 48px;
   }
-
 
   .ebcf_close1:hover,
   .ebcf_close1:focus {
