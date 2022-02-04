@@ -123,7 +123,6 @@ body {
   font-family: "SpoqaHanSansNeo-Regular", "Arial", sans-serif;
   word-spacing: -0.4ch;
   width: 100%;
-   
 
   -webkit-text-size-adjust: 100%;
   -webkit-box-sizing: border-box;
@@ -150,10 +149,7 @@ body {
   color: rgba(25, 25, 25, 0.9);
   z-index: 50;
 }
-p {
-  position: absolute;
-  width: 50%;
-}
+
 .caption {
   font-family: "BareunBatangOTFB-subset", serif;
   position: fixed;
@@ -273,6 +269,7 @@ ul {
   height: 100vh;
   object-fit: cover;
 }
+
 @media all and (min-width: 720px) {
   .swiper-slide img {
     display: block;
@@ -487,6 +484,80 @@ body {
   }
 }
 
+/* // * modal page */
+
+.modalGrid {
+  margin: 8px;
+  grid-gap: 24px;
+
+  word-break: keep-all;
+  align-items: start;
+}
+
+.modalHeader1 {
+  grid-column: 1;
+  font-family: "BareunBatangOTFM-subset", serif;
+  font-size: 1.2rem;
+  padding: 12px 0 0 18px;
+}
+
+.modalBody1 {
+  grid-column: 1;
+  font-size: 1rem;
+  margin: 0px 16px 16px 16px;
+  padding: 16px 16px 30px 4px;
+  text-align: left;
+}
+
+
+
+.border-top {
+  padding-top: 24px;
+  width: 100%;
+  border-bottom: 1px solid;
+}
+
+.ebcf_modal1 {
+  display: block;
+  position: fixed;
+  z-index: 100;
+  padding-top: 32vh;
+  font-size: 1rem;
+  line-height: 1.75;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(245, 245, 225, 0.7);
+}
+.mark1 {
+  text-align: left;
+  cursor: pointer;
+  width: 200px;
+  bottom: 0;
+  left: 0;
+}
+
+.ebcf_modal-content0 {
+  background-color: white;
+  padding-left: 6px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.ebcf_modal-content1 {
+  background-color: white;
+  margin: 0 auto;
+  width: 27%;
+}
+
+.ebcf_close1:hover,
+.ebcf_close1:focus {
+  cursor: pointer;
+  text-decoration: none;
+}
+
 @media all and (min-width: 300px) {
   .header {
     font-size: 18px;
@@ -550,6 +621,52 @@ body {
     width: 100%;
     font-size: 0.8rem;
   }
+
+  .modalHeader1 {
+    grid-column: 1;
+    font-family: "BareunBatangOTFM-subset", serif;
+    font-size: 0.8rem;
+
+    text-align: left;
+  }
+
+  .modalBody1 {
+    grid-column: 1;
+    font-size: 0.7rem;
+    margin: 16px;
+  }
+
+  .ebcf_modal1 {
+    display: block;
+    position: fixed;
+    z-index: 100;
+    padding-top: 21vh;
+    font-size: 1rem;
+    line-height: 1.75;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(245, 245, 225, 0.7);
+  }
+
+  .ebcf_modal-content1 {
+    background-color: #fff;
+    margin: 0 auto;
+
+    width: 72.5%;
+  }
+
+  .exit {
+    position: absolute;
+    font-size: 1.25rem;
+    cursor: pointer;
+    margin-top: -1.75vw;
+    margin-left: 59.5%;
+
+    color: #000;
+  }
 }
 
 @media all and (min-width: 1004px) {
@@ -602,5 +719,77 @@ body {
     margin: 0 0 64px 10%;
     width: 55%;
     font-size: 1rem;
+  }
+
+  /* // * modal page */
+
+  .modalGrid {
+    margin: 8px;
+    grid-gap: 24px;
+
+    word-break: keep-all;
+    align-items: start;
+  }
+
+  .modalHeader1 {
+    grid-column: 1;
+    font-family: "BareunBatangOTFM-subset", serif;
+    font-size: 1.1rem;
+  }
+
+  .modalBody1 {
+    grid-column: 1;
+    font-size: 1rem;
+    margin: 16px;
+  }
+
+  .ebcf_modal1 {
+    display: block;
+    position: fixed;
+    z-index: 100;
+    padding-top: 32vh;
+    font-size: 1rem;
+    line-height: 1.75;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(245, 245, 225, 0.7);
+  }
+  .mark1 {
+    text-align: left;
+    cursor: pointer;
+    width: 200px;
+    bottom: 0;
+    left: 0;
+  }
+
+  .ebcf_modal-content0 {
+    background-color: white;
+    padding-left: 8px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .ebcf_modal-content1 {
+    background-color: white;
+    margin: 0 auto;
+    width: 42%;
+    padding: 0;
+  }
+
+  .ebcf_close1:hover,
+  .ebcf_close1:focus {
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .bodyText {
+    position: absolute;
+    width: 100%;
+
+    margin-top: 240px;
+    margin-left: 180px;
   }
 }
