@@ -509,7 +509,7 @@ aside {
 .ebcf_modal-content2 {
   border: solid 2px white;
   text-align: center;
-  margin: 28px auto;
+  margin: 24px auto;
   padding: 28px;
   width: 40%;
 
@@ -1021,7 +1021,7 @@ body {
 
   .ftext1 {
     text-align: left;
-    margin: 0 0 64px 336px;
+    margin: 100px 0 48px 336px;
     padding-bottom: 64px;
     grid-column: 1;
     font-size: 1rem;
