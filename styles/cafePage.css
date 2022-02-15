@@ -541,7 +541,7 @@ details > summary::-webkit-details-marker {
 }
 
 .modalGrid {
-  margin: 6px;
+  margin: 8px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 16px;
@@ -819,7 +819,7 @@ body {
   }
 
   .ebcf_modal1 {
-    padding-top: 47.5%;
+    padding-top: 21vh;
   }
 
   .ebcf_modal-content0 {
@@ -832,6 +832,7 @@ body {
     font-family: "BareunBatangOTFM-subset", serif;
     font-size: 0.8rem;
     margin-bottom: 4px;
+    padding: 12px 0 0 0px;
   }
 
   .modalHeader2 {
@@ -1124,14 +1125,14 @@ body {
   }
 
   .ebcf_modal1 {
-    padding-top: 17.5%;
+    padding-top: 36vh;
   }
 
   .ebcf_modal-content0 {
     background-color: #fff;
     margin: 0 auto;
     padding: 0; 
-    width: 35%;
+    width: 42%;
   }
 
   .modalHeader1 {
