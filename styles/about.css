@@ -435,13 +435,7 @@ details > summary::-webkit-details-marker {
   display: none;
 }
 
-p.ftext1 {
-  width: 75%;
-  left: 5.5em;
-  transform: translate(-3em);
-  padding-bottom: 48px;
-  grid-column: 1;
-}
+
 .fa-instagram {
   font-size: 16px;
 }
@@ -686,8 +680,9 @@ body {
 
   .ftext1 {
     text-align: left;
-    margin: 0 0 64px 320px;
+    margin: 0 0 64px 336px;
     padding-bottom: 64px;
+    grid-column: 1;
     font-size: 1rem;
   }
 }

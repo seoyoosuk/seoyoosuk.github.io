@@ -507,11 +507,11 @@ aside {
 }
 
 .ebcf_modal-content2 {
-  border: solid 3px white;
+  border: solid 2px white;
   text-align: center;
   margin: 28px auto;
   padding: 28px;
-  width: 50%;
+  width: 40%;
 
   cursor: pointer;
 }
@@ -776,24 +776,8 @@ body {
     backface-visibility: hidden;
   }
 
-  .footer {
-    width: 75%;
-    line-height: 1.85;
 
-    display: grid;
-    grid-template-columns: repeat(1, 3fr);
-    grid-auto-columns: minmax(100px, auto);
-    grid-column-gap: 8px;
 
-    align-items: start;
-    text-align: left;
-  }
-
-  .ftext1 {
-    margin: 0 0 48px 0;
-    width: 100%;
-    font-size: 0.8rem;
-  }
 
   .fa-instagram {
     font-size: 0.8rem;
@@ -847,18 +831,10 @@ body {
   }
 
   .footer {
-    width: 75%;
+
     line-height: 1.85;
 
-    margin-left: 64px;
-    align-items: start;
-    text-align: left;
-  }
 
-  .ftext1 {
-    margin: 0 0 64px 0;
-    width: 50%;
-    font-size: 0.9rem;
   }
 
   .fa-instagram {
@@ -1042,12 +1018,15 @@ body {
     margin-bottom: 1rem;
   }
 
+
   .ftext1 {
     text-align: left;
     margin: 0 0 64px 336px;
-    width: 55%;
+    padding-bottom: 64px;
+    grid-column: 1;
     font-size: 1rem;
   }
+
 
   .fa-instagram {
     font-size: 1rem;

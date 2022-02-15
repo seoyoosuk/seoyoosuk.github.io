@@ -545,7 +545,7 @@ details > summary::-webkit-details-marker {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 16px;
-  padding: 0 28px;
+  padding: 0 20px 0 24px;
 
   word-break: keep-all;
   align-items: start;
@@ -804,15 +804,7 @@ body {
     transform: translate(50%, -25%);
   }
 
-  .ftext1 {
-    width: 75%;
-    left: 5.5em;
-    transform: translate(2.5em);
-    padding-bottom: 24px;
-    grid-column: 1;
 
-    font-size: 0.75rem;
-  }
 
   .quick_menu2 {
     display: none;
@@ -1020,10 +1012,10 @@ body {
   .linkText {
     position: absolute;
     display: block;
-    font-size: 1.25rem;
+    font-size: 1.4rem;
     letter-spacing: 1.25px;
     color: white;
-    top: 50%;
+    top: 51%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -1109,11 +1101,10 @@ body {
   }
 
   .ftext1 {
-    transform: translate(0em);
     text-align: left;
     margin: 0 0 64px 336px;
-    width: 55%;
-    font-size: 1rem;
+    padding-bottom: 64px;
+    grid-column: 1;
   }
 
   .fa-instagram {

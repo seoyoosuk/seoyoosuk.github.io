@@ -745,7 +745,7 @@ body {
   /* // * modal page */
 
   .modalGrid {
-    margin: 8px;
+    margin: 8px 0 6px 10px;
     grid-gap: 24px;
 
     word-break: keep-all;
