@@ -545,7 +545,7 @@ details > summary::-webkit-details-marker {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 16px;
-  padding: 8px 20px 0 24px;
+  padding: 4px 20px 0 24px;
 
   word-break: keep-all;
   align-items: start;
