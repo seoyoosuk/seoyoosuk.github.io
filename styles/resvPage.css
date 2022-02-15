@@ -507,11 +507,13 @@ aside {
 }
 
 .ebcf_modal-content2 {
+  font-family: "SpoqaHanSansNeo-Regular";
+  font-size: 1.1rem;
   border: solid 2px white;
   text-align: center;
   margin: 24px auto;
   padding: 28px;
-  width: 40%;
+  width: 38%;
 
   cursor: pointer;
 }
