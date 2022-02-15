@@ -490,7 +490,7 @@ details > summary::-webkit-details-marker {
   font-size: 1.4rem;
   letter-spacing: 1.25px;
   color: white;
-  top: 50.25%;
+  top: 51%;
   left: 50%;
 
   transform: translate(-50%, -50%);
