@@ -820,6 +820,8 @@ body {
     width: 75%;
   }
 
+
+
   .modalHeader1 {
     font-family: "BareunBatangOTFM-subset", serif;
     font-size: 0.8rem;
@@ -830,6 +832,8 @@ body {
   .modalHeader2 {
     font-family: "BareunBatangOTFM-subset", serif;
     font-size: 0.8rem;
+    margin-bottom: 4px;
+    padding: 12px 0 0 0px;
   }
 
   .modalBody1 {
@@ -839,7 +843,7 @@ body {
 
   .modalBody2 {
     font-size: 0.7rem;
-    padding-bottom: 0px;
+    padding-bottom: 16px;
   }
 
 
@@ -930,6 +934,17 @@ body {
     column-gap: 12px;
     row-gap: 12px;
   }
+
+  .ftext1 {
+
+    width: 75%;
+    left: 5.5em;
+    transform: translate(-3em);
+    padding-bottom: 48px;
+    grid-column: 1;
+
+  font-size: 0.75rem;
+}
 
   .fa-instagram {
     font-size: 0.8rem;
