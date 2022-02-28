@@ -711,6 +711,13 @@ body {
     transform: translate(-50%, -50%);
   }
 
+  .ftext1 {
+    position: absolute;
+    text-align: left;
+    padding-bottom: 48px;
+    grid-column: 1;
+  }
+
   .scrollMap {
     width: 36px;
     position: absolute;
