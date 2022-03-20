@@ -716,6 +716,14 @@ body {
     text-align: left;
     padding-bottom: 48px;
     grid-column: 1;
+
+    width: 75%;
+    left: 5.5em;
+    transform: translate(-3em);
+    padding-bottom: 48px;
+    grid-column: 1;
+
+  font-size: 0.75rem;
   }
 
   .scrollMap {
@@ -942,16 +950,6 @@ body {
     row-gap: 12px;
   }
 
-  .ftext1 {
-
-    width: 75%;
-    left: 5.5em;
-    transform: translate(-3em);
-    padding-bottom: 48px;
-    grid-column: 1;
-
-  font-size: 0.75rem;
-}
 
   .fa-instagram {
     font-size: 0.8rem;
@@ -1124,11 +1122,11 @@ body {
 
   .ftext1 {
     text-align: left;
-    margin: 0 0 64px 336px;
+    margin: 100px 0 48px 336px;
     padding-bottom: 64px;
     grid-column: 1;
+    font-size: 1rem;
   }
-
   .fa-instagram {
     font-size: 16px;
   }
