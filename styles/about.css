@@ -435,7 +435,6 @@ details > summary::-webkit-details-marker {
   display: none;
 }
 
-
 .fa-instagram {
   font-size: 16px;
 }
@@ -482,7 +481,7 @@ body {
   }
 }
 
-/* ************************* media Q */
+/* media Q */
 
 @media all and (min-width: 300px) {
   .header {
@@ -548,38 +547,44 @@ body {
 
   .imgA {
     display: block;
-    margin: -7.5rem 0 24.5rem 0rem;
-    width: 100%;
-    height: 50vh;
+    width: auto;
+
+    margin: 0;
     object-fit: cover;
   }
 
   .titleA {
+    position: relative;
     font-family: "BareunBatangOTFM-subset", serif;
     display: block;
-    margin: 21.5rem 0 0 2rem;
+
+    padding: 1rem 0 0 2rem;
+    margin: 0;
 
     font-size: 1.1rem;
   }
   .summaryA {
-    width: 65%;
+    position: relative;
     word-break: keep-all;
     display: block;
-    margin: 24.75rem 0 0 2rem;
+
+    width: 75%;
+
+    margin: 0 0 3rem 0;
+    padding: 2rem;
 
     font-size: 0.9rem;
   }
 
   .ftext1 {
-
     width: 75%;
     left: 5.5em;
     transform: translate(-3em);
     padding-bottom: 48px;
     grid-column: 1;
 
-  font-size: 0.75rem;
-}
+    font-size: 0.75rem;
+  }
 }
 
 @media all and (min-width: 768px) {
@@ -668,6 +673,7 @@ body {
   }
 
   .titleA {
+    position: absolute;
     font-family: "BareunBatangOTFM-subset", serif;
     display: block;
     margin: -0.5rem 0 30rem 67.5%;
@@ -675,6 +681,7 @@ body {
     font-size: 1.1rem;
   }
   .summaryA {
+    position: absolute;
     width: 25%;
     word-break: keep-all;
     display: block;
