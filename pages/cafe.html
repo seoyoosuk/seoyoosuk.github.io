@@ -255,22 +255,15 @@
     <script src="../scripts/modal.js"></script>
     <script src="../scripts/bw.js"></script>
 
-    <script type="text/javascript" language="JavaScript">
-
-      var mobileKeyWords = new Array('iPhone', 'iPod', 'BlackBerry', 'Android', 'Windows CE', 'Windows CE;', 'LG', 'MOT', 'SAMSUNG', 'SonyEricsson', 'Mobile', 'Symbian', 'Opera Mobi', 'Opera Mini', 'IEmobile');
-      
-      for (var word in mobileKeyWords){
-      
-      if (navigator.userAgent.match(mobileKeyWords[word]) != null){
-      
-      window.location.href = "m.cafe.html";
-      
-      break;
-      
-      }
-      
-      }
-      
-      </script>
+    <script>
+      var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)
+        ? true
+        : false;
+      $(window).resize(function () {
+        if ($(window).width() < 1024) {
+          location.href = "./m.cafe.html";
+        }
+      });
+    </script>
   </body>
 </html>

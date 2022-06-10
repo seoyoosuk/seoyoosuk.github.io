@@ -392,5 +392,16 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="../scripts/staySlide.js"></script>
     <script src="../scripts/bw.js"></script>
+
+    <script>
+      var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)
+        ? true
+        : false;
+      $(window).resize(function () {
+        if ($(window).width() > 1024) {
+          location.href = "./stay.html";
+        }
+      });
+    </script>
   </body>
 </html>
