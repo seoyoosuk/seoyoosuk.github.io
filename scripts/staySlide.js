@@ -123,3 +123,24 @@ var swiper = new Swiper(".mySwiper06", {
 
 });
 
+var swiper = new Swiper(".mySwiper07", {
+  effect: "fade",
+  centeredSlides: true,
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+  },
+  loopAdditionalSlides: 1,
+  loop: true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+
+});
+
+
