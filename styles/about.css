@@ -673,6 +673,7 @@ body {
   }
 
   .titleA {
+    width: 30vw;
     position: absolute;
     font-family: "BareunBatangOTFM-subset", serif;
     display: block;
@@ -691,6 +692,7 @@ body {
   }
 
   .ftext1 {
+    width: 50vw;
     text-align: left;
     margin: 0 0 64px 336px;
     padding-bottom: 64px;
