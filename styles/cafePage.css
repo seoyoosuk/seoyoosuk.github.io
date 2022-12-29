@@ -104,7 +104,7 @@ pre {
   font-family: "BareunBatangOTFB-subset";
   src: local("BareunBatangOTFB-subset"), local("BareunBatangOTFB-subset");
   src: url(../fonts/BareunBatangOTFB-subset.woff) format("woff"),
-    url(../fonts/BareunBatangOTFB-subset.otf) format("truetype");
+    url(../fonts/BareunBatangOTFB-subset.otf) format("opentype");
 }
 
 @font-face {
@@ -113,7 +113,7 @@ pre {
   font-weight: 400;
   src: local("SpoqaHanSansNeo-Regular"), local("SpoqaHanSansNeo-Regular");
   src: url(../fonts/SpoqaHanSansNeo-Regular.woff) format("woff"),
-    url(../fonts/SpoqaHanSansNeo-Regular.otf) format("truetype");
+    url(../fonts/SpoqaHanSansNeo-Regular.otf) format("opentype");
 }
 
 @font-face {
@@ -121,7 +121,7 @@ pre {
   font-weight: 500;
   src: local("SpoqaHanSansNeo-Medium"), local("SpoqaHanSansNeo-Medium");
   src: url(../fonts/SpoqaHanSansNeo-Medium.woff) format("woff"),
-    url(../fonts/SpoqaHanSansNeo-Medium.otf) format("truetype");
+    url(../fonts/SpoqaHanSansNeo-Medium.otf) format("opentype");
 }
 
 html,
