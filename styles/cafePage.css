@@ -143,8 +143,6 @@ body {
   text-align: center;
   word-spacing: 2px;
 
-
-
   background-color: #edebe1;
 }
 
@@ -491,7 +489,7 @@ details > summary::-webkit-details-marker {
   row-gap: 12px;
 }
 
-#section02 {
+#space {
   margin-bottom: 200px;
 }
 
@@ -554,7 +552,6 @@ details > summary::-webkit-details-marker {
   bottom: 0;
   left: 0;
 }
-
 
 .ebcf_close1:hover,
 .ebcf_close1:focus {
@@ -719,7 +716,7 @@ body {
     padding-bottom: 48px;
     grid-column: 1;
 
-  font-size: 0.75rem;
+    font-size: 0.75rem;
   }
 
   .scrollMap {
@@ -754,7 +751,6 @@ body {
     text-align: left;
     margin: 16px 0 32px 48%;
   }
-
 
   .centerHeader {
     font-family: "BareunBatangOTFM-subset", serif;
@@ -815,8 +811,6 @@ body {
     transform: translate(50%, -25%);
   }
 
-
-
   .quick_menu2 {
     display: none;
   }
@@ -828,10 +822,8 @@ body {
   .ebcf_modal-content0 {
     background-color: #fff;
     margin: 0 auto;
-    width: 75%;
+    width: 72.5%;
   }
-
-
 
   .modalHeader1 {
     font-family: "BareunBatangOTFM-subset", serif;
@@ -856,8 +848,6 @@ body {
     font-size: 0.7rem;
     padding-bottom: 16px;
   }
-
-
 
   .titleA {
     font-family: "BareunBatangOTFM-subset", serif;
@@ -945,7 +935,6 @@ body {
     column-gap: 12px;
     row-gap: 12px;
   }
-
 
   .fa-instagram {
     font-size: 0.8rem;
@@ -1138,7 +1127,7 @@ body {
   .ebcf_modal-content0 {
     background-color: #fff;
     margin: 0 auto;
-    padding: 0; 
+    padding: 0;
     width: 42%;
   }
 
@@ -1168,7 +1157,6 @@ body {
   markModal {
     background-color: #fff;
   }
-
 
   .map-img {
     display: block;
