@@ -8,13 +8,13 @@
     />
 
     <title>서유숙 스테이</title>
-    <meta name="description" content="서유숙 스테이 웹사이트입니다." />
+    <meta name="description" content="충북 충주시에 위치한 서유숙 스테이 웹사이트입니다." />
     <meta name="keywords" content="한옥 스테이, 한옥, 스테이, 숙박" />
     <meta name="naver-site-verification" content="a54236c2e3aebf9ea36b2b152d5c67274bad4d48" />
     <meta name="robots" content="index,nofollow" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="서유숙" />
-    <meta property="og:description" content="한옥 스테이 서유숙 웹사이트입니다." />
+    <meta property="og:description" content="충북 충주시에 위치한 서유숙 스테이 웹사이트입니다." />
 
     <link
       rel="stylesheet"
@@ -117,13 +117,15 @@
     <script src="../scripts/bw.js"></script>
 
     <script>
-      var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)
+      $().ready(function () {
+        var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)
         ? true
         : false;
       $(window).resize(function () {
         if ($(window).width() < 1024) {
           location.href = "./m.about.html";
         }
+      });
       });
     </script>
   </body>
