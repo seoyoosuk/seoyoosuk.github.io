@@ -130,11 +130,7 @@ body {
   box-sizing: border-box;
   text-align: center;
   word-spacing: 2px;
-  -ms-user-select: none;
-  -moz-user-select: -moz-none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  user-select: none;
+
   background-color: #edebe1;
 }
 
@@ -169,7 +165,7 @@ body {
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
   margin-top: 180px;
-  z-index: 1000;
+  z-index: 100;
   text-align: center;
 }
 
@@ -632,7 +628,7 @@ body {
   .modalBody1 {
     grid-column: 1;
     font-size: 0.7rem;
-    margin: 16px;
+    margin: 12px;
   }
 
   .ebcf_modal1 {
@@ -655,6 +651,7 @@ body {
     margin: 0 auto;
 
     width: 72.5%;
+    z-index: 1001;
   }
 
   .close {

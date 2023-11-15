@@ -150,12 +150,6 @@ body {
   text-align: left;
   word-spacing: 2px;
 
-  -ms-user-select: none;
-  -moz-user-select: -moz-none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  user-select: none;
-
   background-color: #edebe1;
 }
 
@@ -372,10 +366,11 @@ details > summary::-webkit-details-marker {
 
 .swiper {
   position: absolute;
-  width: 50%;
+  width: calc(50% - 2rem);
   height: 100%;
-  top: -20px;
-  left: 24rem;
+  top: -18px;
+
+  margin-right: 2rem !important;
 }
 
 .swiper-slide {
@@ -419,7 +414,7 @@ details > summary::-webkit-details-marker {
 /* quick menu */
 /* quick menu */
 
-.quick_menu{
+.quick_menu {
   width: 50%;
 }
 

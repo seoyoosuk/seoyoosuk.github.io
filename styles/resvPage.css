@@ -151,12 +151,6 @@ body {
   text-align: left;
   word-spacing: 2px;
 
-  -ms-user-select: none;
-  -moz-user-select: -moz-none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  user-select: none;
-
   background-color: #edebe1;
 }
 
@@ -515,7 +509,13 @@ aside {
   padding: 28px;
   width: 38%;
 
+  transition: opacity 0.25s;
+
   cursor: pointer;
+}
+
+.ebcf_modal-content2:hover {
+  opacity: 0.5;
 }
 
 .ebcf_close1:hover,
@@ -778,9 +778,6 @@ body {
     backface-visibility: hidden;
   }
 
-
-
-
   .fa-instagram {
     font-size: 0.8rem;
   }
@@ -833,10 +830,7 @@ body {
   }
 
   .footer {
-
     line-height: 1.85;
-
-
   }
 
   .fa-instagram {
@@ -1020,7 +1014,6 @@ body {
     margin-bottom: 1rem;
   }
 
-
   .ftext1 {
     text-align: left;
     margin: 100px 0 48px 336px;
@@ -1028,7 +1021,6 @@ body {
     grid-column: 1;
     font-size: 1rem;
   }
-
 
   .fa-instagram {
     font-size: 1rem;

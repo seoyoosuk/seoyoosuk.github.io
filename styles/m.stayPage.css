@@ -121,7 +121,6 @@ body {
   font-family: "SpoqaHanSansNeo-Regular", "Arial", sans-serif;
   word-spacing: -0.4ch;
   width: 100%;
-   
 
   -webkit-text-size-adjust: 100%;
   -webkit-box-sizing: border-box;
@@ -129,11 +128,7 @@ body {
   box-sizing: border-box;
   text-align: left;
   word-spacing: 1.5px;
-  -ms-user-select: none;
-  -moz-user-select: -moz-none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  user-select: none;
+
   background-color: #edebe1;
 }
 header {
@@ -195,7 +190,7 @@ nav {
 nav div .sticky {
   display: flex;
   margin: 0;
- 
+
   justify-content: flex-end;
 }
 
@@ -532,12 +527,11 @@ body {
   }
 
   .ftext1 {
-
-      width: 75%;
-      left: 5.5em;
-      transform: translate(-3em);
-      padding-bottom: 48px;
-      grid-column: 1;
+    width: 75%;
+    left: 5.5em;
+    transform: translate(-3em);
+    padding-bottom: 48px;
+    grid-column: 1;
 
     font-size: 0.75rem;
   }
@@ -648,6 +642,4 @@ body {
     margin-top: 64px;
     margin-left: 21rem;
   }
-
-
 }
