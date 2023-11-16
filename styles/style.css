@@ -505,6 +505,18 @@ body {
   text-align: left;
 }
 
+.modalBody1 a {
+  text-decoration: underline;
+  text-underline-position: under;
+  color: inherit !important;
+}
+
+.modalBody1 img {
+  width: 1rem;
+
+  display: inline;
+}
+
 .border-top {
   position: relative;
   padding-top: 30px;
@@ -760,12 +772,6 @@ body {
     grid-column: 1;
     font-size: 1rem;
     margin: 16px;
-  }
-
-  .modalBody1 a {
-    text-decoration: underline;
-    text-underline-position: under;
-    color: inherit;
   }
 
   .ebcf_modal1 {

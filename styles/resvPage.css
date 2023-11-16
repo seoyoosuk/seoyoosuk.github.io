@@ -954,13 +954,13 @@ body {
 
   .ftext1 {
     text-align: left;
-    margin: 100px 0 48px 336px;
+    margin: 100px 0 0 336px;
     padding-bottom: 64px;
     grid-column: 1;
     font-size: 1rem;
   }
 
   .fa-instagram {
-    font-size: 1rem;
+    font-size: 18px;
   }
 }
