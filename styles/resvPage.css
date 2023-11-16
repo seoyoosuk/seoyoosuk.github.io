@@ -150,6 +150,7 @@ body {
 
   text-align: left;
   word-spacing: 2px;
+  overflow-x: hidden;
 
   background-color: #edebe1;
 }
@@ -375,15 +376,6 @@ a:hover {
 
 /* sticky box */
 
-nav {
-  width: 100%;
-  background-color: rgba(237, 235, 225, 0.97);
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-  border-bottom: 3px solid rgba(255, 255, 255, 0.1);
-  position: sticky;
-  top: 0;
-  z-index: 49;
-}
 nav div .sticky {
   display: flex;
   margin: 0;
@@ -437,7 +429,7 @@ aside {
   font-size: 1.2rem;
   line-height: 1.6;
   text-align: center;
-  margin: 128px 0;
+  margin: 10vh 128px 5vh;
 }
 
 /* // * modal page */
@@ -700,59 +692,6 @@ body {
     grid-auto-rows: 100px;
   }
 
-  .title1 {
-    font-family: "BareunBatangOTFM-subset", serif;
-    position: absolute;
-    display: block;
-    width: 100%;
-
-    margin: 16px 0 32px 0;
-
-    font-size: 1rem;
-
-    z-index: 1;
-    grid-column: 2 / 1;
-  }
-
-  .title2 {
-    position: absolute;
-    font-family: "BareunBatangOTFM-subset", serif;
-    display: block;
-    font-size: 1rem;
-
-    margin: 16px 0 32px 0px;
-
-    z-index: 1;
-    grid-column: 2 / 1;
-  }
-
-  .body1 {
-    word-break: keep-all;
-    display: inline-block;
-
-    width: 50%;
-    padding-top: 32px;
-    margin: 0px 0 64px 0;
-    font-size: 0.9rem;
-    line-height: 1.75;
-
-    z-index: 1;
-  }
-
-  .body2 {
-    word-break: keep-all;
-    position: absolute;
-    display: inline;
-
-    width: 30%;
-
-    padding-top: 32px;
-    margin: 16px 0 64px 0px;
-    font-size: 0.9rem;
-    line-height: 1.75;
-    z-index: 1;
-  }
-
   table {
     display: block;
     font-size: 1rem;
@@ -784,47 +723,6 @@ body {
 }
 
 @media all and (min-width: 480px) {
-  .title1 {
-    width: 40vw;
-    font-family: "BareunBatangOTFM-subset", serif;
-
-    margin-left: 48px;
-    margin-bottom: 24px;
-    font-size: 1.1rem;
-
-    z-index: 1;
-  }
-
-  .title2 {
-    font-family: "BareunBatangOTFM-subset", serif;
-    display: inline;
-    width: 50%;
-
-    font-size: 1.1rem;
-
-    z-index: 1;
-  }
-
-  .body1 {
-    word-break: keep-all;
-    margin-top: 24px;
-    margin-left: 48px;
-    font-size: 0.95rem;
-    line-height: 1.75;
-    z-index: 1;
-  }
-
-  .body2 {
-    word-break: keep-all;
-    display: inline;
-    margin-top: 24px;
-    width: 30%;
-
-    font-size: 0.95rem;
-    line-height: 1.75;
-    z-index: 1;
-  }
-
   table {
     margin: 120px 0 48px 64px;
   }
@@ -969,23 +867,63 @@ body {
     grid-auto-rows: 100px;
   }
 
-  .title1 {
-    margin-left: 180px;
+  .resv_table_container {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+
+    margin: 0 auto;
+  }
+
+  .resv_table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .resv_table:nth-child(2) {
+    margin-left: 60px;
+  }
+
+  .resv_table_box {
+    margin-bottom: 64px;
+  }
+
+  .resv_table_box h1 {
+    font-family: "BareunBatangOTFM-subset", serif;
     font-size: 1.25rem;
+
+    margin-bottom: 20px;
   }
 
-  .title2 {
-    font-size: 1.25rem;
-  }
-
-  .body1 {
-    margin-left: 180px;
+  .resv_table_box p {
     font-size: 1rem;
+    line-height: 1.65;
+    word-break: keep-all;
+
+    width: 60ch;
+    padding-bottom: 4px;
   }
 
-  .body2 {
-    font-size: 1rem;
-    width: 34%;
+  .resv_table_box a {
+    text-decoration: underline;
+    text-underline-position: under;
+  }
+
+  @media all and (min-width: 1580px) {
+    .resv_table:nth-child(2) {
+      margin-left: 180px;
+    }
+    .resv_table_box {
+      margin-bottom: 80px;
+    }
+    .resv_table_box h1 {
+      margin-bottom: 24px;
+    }
+    .resv_table_box p {
+      width: 80ch;
+    }
   }
 
   table {

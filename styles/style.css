@@ -762,6 +762,12 @@ body {
     margin: 16px;
   }
 
+  .modalBody1 a {
+    text-decoration: underline;
+    text-underline-position: under;
+    color: inherit;
+  }
+
   .ebcf_modal1 {
     display: block;
     position: fixed;
