@@ -488,6 +488,7 @@ body {
 
   word-break: keep-all;
   align-items: start;
+  overflow: auto;
 }
 
 .modalHeader1 {
@@ -503,6 +504,11 @@ body {
   margin: 0px 16px 0px 16px;
   padding: 8px 16px 30px 4px;
   text-align: left;
+}
+
+.modalBody1 .map {
+  width: 100%;
+  height: 100%;
 }
 
 .modalBody1 a {
@@ -528,6 +534,21 @@ body {
   display: block;
   position: fixed;
   z-index: 100;
+
+  font-size: 1rem;
+  line-height: 1.75;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(245, 245, 225, 0.7);
+}
+
+.ebcf_modal2 {
+  display: block;
+  position: fixed;
+  z-index: 100;
   padding-top: 32vh;
   font-size: 1rem;
   line-height: 1.75;
@@ -538,6 +559,7 @@ body {
   overflow: auto;
   background-color: rgba(245, 245, 225, 0.7);
 }
+
 .mark1 {
   text-align: left;
   cursor: pointer;
@@ -640,14 +662,16 @@ body {
   .modalBody1 {
     grid-column: 1;
     font-size: 0.7rem;
-    margin: 12px;
+    margin: 10px;
   }
 
   .ebcf_modal1 {
     display: block;
     position: fixed;
     z-index: 100;
-    padding-top: 21vh;
+
+    padding: 20vh 0;
+
     font-size: 1rem;
     line-height: 1.75;
     left: 0;
@@ -662,7 +686,8 @@ body {
     background-color: #fff;
     margin: 0 auto;
 
-    width: 72.5%;
+    width: 80%;
+    padding: 0 0 25vh 0;
     z-index: 1001;
   }
 
@@ -778,7 +803,22 @@ body {
     display: block;
     position: fixed;
     z-index: 100;
-    padding-top: 32vh;
+
+    font-size: 1rem;
+    line-height: 1.75;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(245, 245, 225, 0.7);
+  }
+
+  .ebcf_modal2 {
+    display: block;
+    position: fixed;
+    z-index: 100;
+    padding-top: 36vh;
     font-size: 1rem;
     line-height: 1.75;
     left: 0;
@@ -807,7 +847,7 @@ body {
     background-color: white;
     margin: 0 auto;
     width: 42%;
-    padding: 0;
+    padding: 0 0 25vh 0;
   }
 
   .ebcf_close1:hover,
