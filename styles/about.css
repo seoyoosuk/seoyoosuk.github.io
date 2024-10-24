@@ -379,6 +379,18 @@ nav div .sticky {
   transform: translate(-50%, -50%);
 }
 
+@media all and (min-width: 300px) {
+  .scrollMap {
+    display: none;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .scrollMap {
+    display: block;
+  }
+}
+
 .image {
   display: block;
   width: 100%;
@@ -572,11 +584,11 @@ body {
   }
 
   .ftext1 {
-    width: 75%;
-    left: 5.5em;
-    transform: translate(-3em);
-    padding-bottom: 48px;
-    grid-column: 1;
+    position: relative;
+
+    margin: 2rem;
+    padding-bottom: 36px;
+    width: calc(100% - 2rem);
 
     font-size: 0.75rem;
   }
@@ -687,6 +699,7 @@ body {
   }
 
   .ftext1 {
+    position: relative;
     width: 50vw;
     text-align: left;
     margin: 0 0 64px 336px;

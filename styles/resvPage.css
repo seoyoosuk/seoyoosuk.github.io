@@ -724,6 +724,24 @@ body {
     margin-left: 24px;
   }
 
+  .resv_table_container {
+    margin: 0 2.1rem;
+  }
+
+  .resv_table_box {
+    margin: 1rem 0;
+    line-height: 1.75;
+  }
+
+  .resv_table_box h1 {
+    font-family: "BareunBatangOTFM-subset", serif;
+    font-size: 1.1rem;
+  }
+
+  .resv_table_box p {
+    font-size: 1rem;
+  }
+
   .linkText {
     position: absolute;
     display: block;
@@ -784,6 +802,31 @@ body {
 
   .fa-instagram {
     font-size: 0.8rem;
+  }
+
+  aside {
+    font-family: "BareunBatangOTFB-subset", serif;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    text-align: center;
+    margin: 48px 24px 64px 24px;
+  }
+
+  .footer {
+    width: 75%;
+    line-height: 1.85;
+    display: grid;
+    grid-template-columns: repeat(1, 3fr);
+    grid-auto-columns: minmax(100px, auto);
+    grid-column-gap: 8px;
+    align-items: start;
+    text-align: left;
+  }
+
+  .ftext1 {
+    margin: 0 0 48px 24px;
+    width: 100%;
+    font-size: 0.75rem;
   }
 }
 

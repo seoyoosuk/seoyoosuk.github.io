@@ -164,7 +164,7 @@ header {
 }
 
 .header {
-  font-family: "Georgia", "BareunBatangOTFB-subset", serif;
+  font-family: "Spectral", "BareunBatangOTFB-subset", serif;
   position: fixed;
   width: 100%;
 
@@ -179,7 +179,7 @@ header {
 p {
   font-family: "SpoqaHanSansNeo-Regular", "Arial", sans-serif;
   line-height: 1.85;
-  position: absolute;
+
   width: 50%;
 
   text-align: center;
@@ -316,9 +316,22 @@ nav div .sticky {
 /* content */
 
 .quick_menu {
+  display: block;
   top: 180px;
   margin-top: 390px;
   z-index: 1;
+}
+
+@media all and (min-width: 300px) {
+  .quick_menu {
+    display: none;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .quick_menu {
+    display: block;
+  }
 }
 
 h1 {
@@ -332,6 +345,7 @@ h1 {
 
 .content {
   font-family: "SpoqaHanSansNeo-Regular", "Arial", sans-serif;
+
   display: block;
   text-align: left;
   width: 20%;
@@ -365,12 +379,8 @@ details > summary::-webkit-details-marker {
 /* slide */
 
 .swiper {
-  position: absolute;
-  width: calc(50% - 2rem);
-  height: 100%;
-  top: -18px;
-
-  margin-right: 2rem !important;
+  position: relative;
+  margin-right: inherit;
 }
 
 .swiper-slide {
@@ -482,12 +492,11 @@ details > summary::-webkit-details-marker {
 .linkText {
   position: absolute;
   display: block;
-  font-size: 1.4rem;
-  letter-spacing: 1.25px;
-  color: white;
-  top: 51.5%;
+  font-size: 1.1rem;
+  letter-spacing: 1.2px;
+  color: #fff;
+  top: 51%;
   left: 50%;
-
   transform: translate(-50%, -50%);
 }
 
@@ -502,38 +511,287 @@ details > summary::-webkit-details-marker {
 
   transform: translate(-50%, -50%);
 }
-
-/* Media Query - Mobile page
-
 @media all and (min-width: 300px) {
-
-
-@media all and (min-width: 600px) {
-
-
-@media all and (min-width: 1024px) {
-} */
-
-.footer {
-  line-height: 1.85;
-  margin: 0 auto;
-  width: 100%;
-
-  display: grid;
-  grid-template-columns: repeat(2, 3fr);
-  grid-auto-columns: minmax(100px, auto);
-  grid-column-gap: 8px;
-
-  align-items: start;
-
-  text-align: center;
+  .scrollMap {
+    display: none;
+  }
 }
 
-.ftext1 {
-  text-align: left;
-  margin: 0 0 64px 336px;
-  padding-bottom: 64px;
-  grid-column: 1;
+@media all and (min-width: 768px) {
+  .scrollMap {
+    display: block;
+  }
+}
+
+@media all and (min-width: 300px) {
+  .header {
+    font-size: 18px;
+    margin-top: 1.5rem;
+  }
+
+  .caption {
+    font-size: 0.7rem;
+    margin-top: 52.5px;
+  }
+
+  .menuWrapper {
+    font-size: 0.85rem;
+    grid-column-gap: 0px;
+    grid-template-columns: repeat(4, 3fr);
+    justify-content: space-evenly;
+
+    margin-top: 110px;
+  }
+
+  .menu1 {
+    grid-column: 1;
+  }
+  .menu2 {
+    grid-column: 2;
+  }
+  .menu3 {
+    grid-column: 3;
+  }
+  .menu4 {
+    grid-column: 4;
+  }
+
+  .container .image {
+    opacity: 0.3;
+  }
+  .linefixed {
+    margin-top: 150px;
+  }
+
+  nav {
+    height: 150px;
+  }
+
+  .section {
+    height: inherit;
+    margin-bottom: 80px;
+  }
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+
+    -ms-user-select: none;
+    -moz-user-select: -moz-none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+  }
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+  }
+  .swiper-slide img {
+    width: 100%;
+  }
+
+  .swiper-button-next:after {
+    color: #d2d2d2;
+    padding-right: 1rem;
+
+    cursor: pointer;
+    z-index: 48;
+
+    -ms-user-select: none;
+    -moz-user-select: -moz-none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+
+    font-size: 1.5rem !important;
+  }
+  .swiper-button-prev:after {
+    color: #d2d2d2;
+    padding-left: 1rem;
+
+    cursor: pointer;
+    z-index: 48;
+
+    -ms-user-select: none;
+    -moz-user-select: -moz-none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+
+    font-size: 1.5rem !important;
+  }
+
+  .swiper-button-next:after:hover,
+  .swiper-button-prev:after:hover {
+    color: rgba(0, 0, 0, 0.9);
+  }
+  .swiper-pagination {
+    display: none;
+  }
+
+  h1 {
+    font-family: "BareunBatangOTFM-subset", serif;
+    font-size: 1.1rem;
+    margin-top: 20px;
+    margin-left: 2.1rem;
+  }
+  .content {
+    font-family: "SpoqaHanSansNeo-Regular", "Arial", sans-serif;
+    position: relative;
+    font-size: 0.9rem;
+    text-align: left;
+    width: 80%;
+    margin-top: 24px;
+    margin-left: 2.1rem;
+  }
+
+  .footer {
+    width: 75%;
+    line-height: 1.85;
+    display: grid;
+    grid-template-columns: repeat(1, 3fr);
+    grid-auto-columns: minmax(100px, auto);
+    grid-column-gap: 8px;
+    align-items: start;
+    text-align: left;
+  }
+
+  .ftext1 {
+    margin: 0 0 48px 24px;
+    width: 100%;
+    font-size: 0.75rem;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .linkText {
+    position: absolute;
+    display: block;
+    font-size: 1.4rem;
+    letter-spacing: 1.25px;
+    color: white;
+    top: 51.5%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media all and (min-width: 1004px) {
+  .header {
+    font-size: 20px;
+    margin-top: 3rem;
+  }
+
+  .caption {
+    font-size: 0.8125rem;
+    margin-top: 84px;
+  }
+
+  .menuWrapper {
+    font-size: 15px;
+    grid-column-gap: 8px;
+    grid-template-columns: repeat(16, 3fr);
+
+    margin-top: 140px;
+  }
+
+  .menu1 {
+    grid-column: 7;
+  }
+  .menu2 {
+    grid-column: 8;
+  }
+  .menu3 {
+    grid-column: 9;
+  }
+  .menu4 {
+    grid-column: 10;
+  }
+  .linefixed {
+    margin-top: 180px;
+  }
+  nav {
+    height: 180px;
+  }
+
+  .section {
+    height: 100vh;
+    margin-bottom: inherit;
+  }
+
+  .swiper {
+    position: absolute;
+
+    width: calc(50% - 2rem);
+    height: 100%;
+    top: -18px;
+
+    margin-right: 2rem !important;
+  }
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+  }
+  .swiper-slide img {
+    width: 100%;
+  }
+  .swiper-button-next:after {
+    color: #d2d2d2;
+    padding-right: 1.25rem;
+
+    top: -12.5rem;
+    z-index: 48;
+    cursor: pointer;
+
+    font-size: 2rem !important;
+  }
+  .swiper-button-prev:after {
+    color: #d2d2d2;
+    padding-left: 1.25rem;
+
+    top: -12.5rem;
+
+    z-index: 48;
+
+    display: block;
+    font-size: 2rem !important;
+  }
+  .swiper-button-next:after:hover,
+  .swiper-button-prev:after:hover {
+    color: rgba(0, 0, 0, 0.9);
+    cursor: pointer;
+  }
+  .swiper-pagination {
+    display: none;
+  }
+
+  h1 {
+    font-family: "BareunBatangOTFM-subset", serif;
+    font-size: 1.2rem;
+    display: block;
+    margin-top: 210px;
+    margin-left: 21rem;
+  }
+  .content {
+    font-family: "SpoqaHanSansNeo-Regular", "Arial", sans-serif;
+    position: absolute;
+    font-size: 1rem;
+    display: block;
+    text-align: left;
+    width: 20%;
+    margin-top: 64px;
+    margin-left: 21rem;
+  }
+
+  .ftext1 {
+    width: 50vw;
+    text-align: left;
+    margin: 0 0 64px 336px;
+    padding-bottom: 64px;
+    grid-column: 1;
+    font-size: 1rem;
+  }
 }
 
 .fa-instagram {

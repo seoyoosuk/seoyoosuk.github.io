@@ -109,7 +109,7 @@
           퀸사이즈 베드1
         </p>
 
-        <div class="swiper mySwiper01">
+        <div class="swiper mySwiper01" id="swiper1">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <img src="../images/stay/stay1a.jpg" />
@@ -148,7 +148,7 @@
           퀸사이즈 베드1
         </p>
 
-        <div class="swiper mySwiper02">
+        <div class="swiper mySwiper02" id="swiper2">
           <div class="swiper-wrapper">
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
@@ -187,7 +187,7 @@
           퀸사이즈 베드1
         </p>
 
-        <div class="swiper mySwiper03">
+        <div class="swiper mySwiper03" id="swiper3">
           <div class="swiper-wrapper">
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
@@ -235,7 +235,7 @@
           퀸사이즈 베드1
         </p>
 
-        <div class="swiper mySwiper04">
+        <div class="swiper mySwiper04" id="swiper4">
           <div class="swiper-wrapper">
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
@@ -274,7 +274,7 @@
           퀸사이즈 베드1
         </p>
 
-        <div class="swiper mySwiper05">
+        <div class="swiper mySwiper05" id="swiper5" id="swiper5">
           <div class="swiper-wrapper">
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
@@ -320,7 +320,7 @@
           퀸사이즈 베드1
         </p>
 
-        <div class="swiper mySwiper06">
+        <div class="swiper mySwiper06" id="swiper6">
           <div class="swiper-wrapper">
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
@@ -362,7 +362,7 @@
           퀸사이즈 / 싱글사이즈 베드 각 1
         </p>
 
-        <div class="swiper mySwiper07">
+        <div class="swiper mySwiper07" id="swiper7">
           <div class="swiper-wrapper">
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
@@ -420,6 +420,54 @@
     <script src="../scripts/bw.js"></script>
 
     <script>
+      let delay = 300;
+      let timer = null;
+
+      var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(
+        navigator.userAgent
+      )
+        ? true
+        : false;
+
+      if ($(window).width() <= 768 || isMobile == true) {
+        console.log("mobile");
+
+        $("#swiper1").prependTo("#room01");
+        $("#swiper2").prependTo("#room02");
+        $("#swiper3").prependTo("#section03");
+        $("#swiper4").prependTo("#section04");
+        $("#swiper5").prependTo("#section05");
+        $("#swiper6").prependTo("#section06");
+        $("#swiper7").prependTo("#section07");
+      }
+
+      $(window).on("resize", function () {
+        clearTimeout(timer);
+        timer = setTimeout(function () {
+          console.log("resize");
+
+          if (window.innerWidth <= 768 || isMobile == true) {
+            $("#swiper1").prependTo("#room01");
+            $("#swiper2").prependTo("#room02");
+            $("#swiper3").prependTo("#section03");
+            $("#swiper4").prependTo("#section04");
+            $("#swiper5").prependTo("#section05");
+            $("#swiper6").prependTo("#section06");
+            $("#swiper7").prependTo("#section07");
+          } else {
+            $("#swiper1").appendTo("#room01");
+            $("#swiper2").appendTo("#room02");
+            $("#swiper3").appendTo("#section03");
+            $("#swiper4").appendTo("#section04");
+            $("#swiper5").appendTo("#section05");
+            $("#swiper6").appendTo("#section06");
+            $("#swiper7").appendTo("#section07");
+          }
+        }, delay);
+      });
+    </script>
+
+    <!-- <script>
       $().ready(function () {
         var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(
           navigator.userAgent
@@ -432,6 +480,6 @@
           }
         });
       });
-    </script>
+    </script> -->
   </body>
 </html>
